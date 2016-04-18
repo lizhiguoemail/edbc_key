@@ -1,0 +1,1 @@
+FCKLang.InsertCode  = '插入代码' ;

@@ -1,0 +1,9 @@
+2012-05-31 caihuajun 去除了basedao方法中try catch，使得事务能进行回滚
+
+2012-06-01 1.caihuajun 添加了生成service版的代码生成器，这样就可以方便使用事务了
+
+           2.caihuajun 修改BaseDao类，在saveObject和updateObject方法中添加了super.getHibernateTemplate().flush();解决了在事务中这些操作不能提交的问题
+
+2012-06-12 caihuajun 在BaseDao中增加了setbyonefieldarrvalue(Class clazz,String fieldname,String[] contentarr,String setfieldname,String setvalue,
+			String orderfieldname,String order,boolean islike)方法
+待续

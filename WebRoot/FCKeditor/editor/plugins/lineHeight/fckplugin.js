@@ -1,0 +1,1 @@
+FCKToolbarItems.RegisterItem('LineHeight', new FCKToolbarLineHeightCombo( null, FCK_TOOLBARITEM_ONLYTEXT));

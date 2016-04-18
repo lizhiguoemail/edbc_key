@@ -1,0 +1,8 @@
+[ {text: '互动平台',id: '01',children: [{text:'  未读消息  ',leaf:true,id:'11'}, {text:'  已读消息  ',leaf:true,id:'12'} , {text:'  给管理员留言  ',leaf:true,id:'13'},{text:'  发送消息  ',leaf:true,id:'14'},{text:'  已发送  ',leaf:true,id:'15'}]}, 
+  {text: '用户管理',id: '02',children: [{text:'  用户列表  ',leaf:true,id:'21'}]}, 
+  {text: '日志管理',id : '03',children: [{text:'  日志查看  ',leaf:true,id:'31'}]}, 
+  {text: '系统配置',id : '04',children: [{text:'  模块配置  ',leaf:true,id:'41'},{text:'  权限配置  ',leaf:true,id:'42'},{text:'  角色配置  ',leaf:true,id:'43'}]}, 
+  {text: '单位部门管理',id : '05',children: [{text:'  单位管理  ',leaf:true,id:'51'},{text:'  部门管理  ',leaf:true,id:'52'},{text:'  职位管理  ',leaf:true,id:'53'}]}, 
+  {text: '代码生成器',id : '06',children: [{text:'  生成代码  ',leaf:true,id:'61'},{text:'  代码生成历史记录  ',leaf:true,id:'62'}]}, 
+  {text: '用户注销',id : '09',children: [{text:'  进入首页  ',leaf:true,id:'91'},{text:'  退出  ',leaf:true,id:'92'}]}
+]

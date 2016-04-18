@@ -1,0 +1,7 @@
+<chart caption='Weekly Sales Summary'
+   xAxisName='Week22222222222' yAxisName='Amount22222222' numberPrefix='$'> 
+    <set label='Week 21' value='14422200' /> 
+    <set label='Week 22' value='19622200' /> 
+    <set label='Week2 3' value='2402200' /> 
+    <set label='Week2 4' value='15700' /> 
+</chart>

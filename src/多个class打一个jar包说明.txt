@@ -1,0 +1,5 @@
+如果要多加ServiceConstent文件
+f:
+cd  F:\java project\edbc_copy\WebRoot\WEB-INF\classes
+jar cvfm base.jar MANIFEST.MF org/dbc/base/BaseAction.class  org/dbc/base/ServiceConstent.class
+

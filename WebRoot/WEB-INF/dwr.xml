@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://www.getahead.ltd.uk/dwr//dwr20.dtd">
+
+<dwr>
+	<allow>
+		  <create creator="spring" javascript="userdao">   
+		   <param name="beanName" value="userdao"></param>
+		  </create> 
+		  <convert match="org.dbc.pojo.UserBean" converter="bean"> 
+         </convert> 
+         <create creator="spring" javascript="bbs_weapondao">   
+		   <param name="beanName" value="bbs_weapondao"></param>
+		  </create> 
+		  <convert match="org.dbc.pojo.Bbs_Weapon" converter="bean"> 
+         </convert> 
+          <create creator="spring" javascript="friendsdao">   
+		   <param name="beanName" value="friendsdao"></param>
+		  </create> 
+		  <convert match="org.dbc.pojo.Friend" converter="bean"> 
+         </convert> 
+	</allow>
+</dwr>

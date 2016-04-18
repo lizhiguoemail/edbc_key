@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/createjingtai.do" location="50,50" dimension="238,104" />
+  <StrutsActivity path="/front.do" location="5150,3250" dimension="238,84" />
+  <StrutsActivity path="/museum.do" location="5450,3450" dimension="244,84" />
+  <StrutsActivity path="/user.do" location="15,240" dimension="165,88" />
+  <StrutsActivity path="/param.do" location="350,3050" dimension="202,84" />
+  <StrutsActivity path="/roles.do" location="-15,3255" dimension="208,84" />
+  <StrutsActivity path="/log.do" location="1850,50" dimension="190,84" />
+  <StrutsActivity path="/treebycai.do" location="2750,50" dimension="226,84" />
+  <StrutsActivity path="/interactive.do" location="50,2650" dimension="238,84" />
+  <StrutsActivity path="/company.do" location="950,2850" dimension="214,84" />
+  <StrutsActivity path="/department.do" location="5150,50" dimension="232,84" />
+  <StrutsActivity path="/position.do" location="7250,2550" dimension="220,84" />
+  <StrutsActivity path="/bbs.do" location="2150,250" dimension="190,84" />
+  <StrutsActivity path="/bbs_category.do" location="5750,2850" dimension="244,84" />
+  <StrutsActivity path="/bbs_forum.do" location="1550,350" dimension="226,84" />
+  <StrutsActivity path="/bbs_post.do" location="1250,2950" dimension="184,84" />
+  <StrutsActivity path="/bbs_params.do" location="2450,2950" dimension="232,84" />
+  <StrutsActivity path="/bbs_rank.do" location="7250,2950" dimension="220,84" />
+  <StrutsActivity path="/friends.do" location="50,850" dimension="214,84" />
+  <StrutsActivity path="/createcode.do" location="7250,850" dimension="232,84" />
+  <StrutsActivity path="/article.do" location="2150,1050" dimension="214,84" />
+  <StrutsActivity path="/base_type.do" location="7250,1050" dimension="226,84" />
+  <StrutsActivity path="/front_module.do" location="3350,1250" dimension="244,84" />
+  <StrutsActivity path="/article_column.do" location="350,1150" dimension="256,84" />
+  <StrutsActivity path="/friendlink.do" location="7850,2850" dimension="232,84" />
+  <StrutsActivity path="/product.do" location="7850,50" dimension="214,84" />
+  <StrutsActivity path="/in_product.do" location="7850,250" dimension="232,84" />
+  <StrutsActivity path="/out_product.do" location="4250,3350" dimension="238,84" />
+  <StrutsActivity path="/assets.do" location="2150,1550" dimension="208,84" />
+  <StrutsActivity path="/assets_use.do" location="6050,1550" dimension="232,84" />
+  <StrutsActivity path="/assets_out.do" location="7250,1550" dimension="232,84" />
+  <StrutsActivity path="/subscribe_email.do" location="7850,2050" dimension="262,84" />
+  <StrutsActivity path="/experts.do" location="50,1650" dimension="214,84" />
+  <StrutsActivity path="/publications.do" location="8150,2750" dimension="244,84" />
+  <StrutsActivity path="/exhibition.do" location="8150,750" dimension="232,84" />
+  <StrutsActivity path="/art_goods.do" location="8150,950" dimension="226,84" />
+  <StrutsActivity path="/jgw_words.do" location="8150,1750" dimension="226,84" />
+  <StrutsActivity path="/jgw_collection.do" location="5150,2250" dimension="256,84" />
+  <StrutsActivity path="/pictures.do" location="8450,150" dimension="220,84" />
+  <StrutsActivity path="/picture_group.do" location="8450,3550" dimension="250,84" />
+  <StrutsActivity path="/videos.do" location="3350,3650" dimension="208,84" />
+  <StrutsActivity path="/video_group.do" location="8450,950" dimension="240,104" />
+  <StrutsActivity path="/pic_rel.do" location="8450,1250" dimension="201,104" />
+  <StrutsActivity path="/video_rel.do" location="8450,1750" dimension="219,104" />
+  <StrutsActivity path="/front/web/Centerarticle.jsp" location="4550,3450" dimension="208,48" />
+  <StrutsActivity path="/front/web/Centerarticlelist.jsp" location="3350,150" dimension="232,48" />
+  <StrutsActivity path="/front/web/index.jsp" location="2150,3050" dimension="160,48" />
+  <StrutsActivity path="/front/web/Showweibo.jsp" location="8150,250" dimension="184,48" />
+  <StrutsActivity path="/front/web/Search.jsp" location="5150,3450" dimension="166,48" />
+  <StrutsActivity path="/front/web/Reg.jsp" location="2450,1650" dimension="148,48" />
+  <StrutsActivity path="/front/web/Showmodule.jsp" location="1550,3250" dimension="190,48" />
+  <StrutsActivity path="/front/web/ShowExhibition.jsp" location="8150,350" dimension="214,48" />
+  <StrutsActivity path="/front/web/Show.jsp" location="350,250" dimension="154,48" />
+  <StrutsActivity path="/front/web/login.jsp" location="6650,3550" dimension="160,48" />
+  <StrutsActivity path="/front/web/museum/ListExperts.jsp" location="1550,3550" dimension="238,48" />
+  <StrutsActivity path="/front/web/museum/ListPublications.jsp" location="2450,3550" dimension="268,48" />
+  <StrutsActivity path="/front/web/museum/Showmedia.jsp" location="3050,3550" dimension="226,48" />
+  <StrutsActivity path="/front/web/museum/Showpic.jsp" location="1850,1650" dimension="214,48" />
+  <StrutsActivity path="/front/web/museum/ShowExhibition.jsp" location="4550,3550" dimension="256,48" />
+  <StrutsActivity path="/front/web/museum/ListExhibition.jsp" location="3350,3550" dimension="256,48" />
+  <StrutsActivity path="/front/web/museum/Showart_good.jsp" location="5150,3550" dimension="244,48" />
+  <StrutsActivity path="/front/web/right.jsp" location="1550,1450" dimension="160,48" />
+  <StrutsActivity path="/front/web/Updateuser.jsp" location="7550,3550" dimension="190,48" />
+  <StrutsActivity path="/front/bbs/Updateuserpwd.jsp" location="3350,2950" dimension="208,48" />
+  <StrutsActivity path="/backstage/index.jsp" location="1250,50" dimension="160,48" />
+  <StrutsActivity path="/backstage/user/loginreg.jsp" location="6050,50" dimension="208,48" />
+  <StrutsActivity path="/backstage/user/Updateuser_role.jsp" location="1550,2750" dimension="250,48" />
+  <StrutsActivity path="/backstage/user/Updateuser.jsp" location="1850,2750" dimension="220,48" />
+  <StrutsActivity path="/backstage/user/Showuser.jsp" location="6950,2650" dimension="208,48" />
+  <StrutsActivity path="/front/bbs/Updateuser.jsp" location="3050,2950" dimension="190,48" />
+  <StrutsActivity path="/backstage/user/Updateuser_permit.jsp" location="4550,2850" dimension="262,48" />
+  <StrutsActivity path="/backstage/user/reg.jsp" location="1250,2750" dimension="178,48" />
+  <StrutsActivity path="/backstage/user/Listuser.jsp" location="6650,2650" dimension="208,48" />
+  <StrutsActivity path="/backstage/user/Updateuserpwd.jsp" location="950,2750" dimension="238,48" />
+  <StrutsActivity path="/backstage/user/Showuser_permit.jsp" location="4850,50" dimension="250,48" />
+  <StrutsActivity path="/backstage/login.jsp" location="5150,3050" dimension="160,48" />
+  <StrutsActivity path="/backstage/module/Listmodule.jsp" location="3650,2750" dimension="232,48" />
+  <StrutsActivity path="/backstage/permit/Showpermit.jsp" location="50,1050" dimension="232,48" />
+  <StrutsActivity path="/backstage/role/Listroles.jsp" location="350,2750" dimension="214,48" />
+  <StrutsActivity path="/backstage/role/Updaterole_permit.jsp" location="2150,2750" dimension="262,48" />
+  <StrutsActivity path="/backstage/role/Updateroles.jsp" location="3050,150" dimension="226,48" />
+  <StrutsActivity path="/backstage/Listlog.jsp" location="6350,50" dimension="172,48" />
+  <StrutsActivity path="/backstage/treebycai/Addsonnode.jsp" location="4250,2750" dimension="250,48" />
+  <StrutsActivity path="/backstage/treebycai/UpdateNode.jsp" location="4550,2750" dimension="250,48" />
+  <StrutsActivity path="/backstage/interactive/Listinteractive.jsp" location="4850,2750" dimension="292,48" />
+  <StrutsActivity path="/backstage/interactive/Listisread.jsp" location="5450,2750" dimension="262,48" />
+  <StrutsActivity path="/backstage/interactive/Addsend.jsp" location="2450,150" dimension="244,48" />
+  <StrutsActivity path="/backstage/interactive/Addmessage.jsp" location="3950,150" dimension="262,48" />
+  <StrutsActivity path="/backstage/interactive/Showunread.jsp" location="6050,2750" dimension="262,48" />
+  <StrutsActivity path="/backstage/interactive/Showsend.jsp" location="1250,950" dimension="250,48" />
+  <StrutsActivity path="/backstage/interactive/Addreply.jsp" location="6650,2750" dimension="250,48" />
+  <StrutsActivity path="/backstage/interactive/Addtjman.jsp" location="4850,150" dimension="250,48" />
+  <StrutsActivity path="/backstage/interactive/Showinteractive.jsp" location="6950,2750" dimension="292,48" />
+  <StrutsActivity path="/backstage/interactive/Listunread.jsp" location="50,2850" dimension="262,48" />
+  <StrutsActivity path="/backstage/company/Addcompany.jsp" location="1250,2850" dimension="238,48" />
+  <StrutsActivity path="/backstage/company/Showcompany.jsp" location="6050,950" dimension="244,48" />
+  <StrutsActivity path="/backstage/company/Updatecompany.jsp" location="1550,2850" dimension="256,48" />
+  <StrutsActivity path="/backstage/company/Listcompany.jsp" location="4550,150" dimension="244,48" />
+  <StrutsActivity path="/backstage/department/Listdepartment.jsp" location="6350,250" dimension="280,48" />
+  <StrutsActivity path="/backstage/department/Addsondepartment.jsp" location="2750,2850" dimension="292,48" />
+  <StrutsActivity path="/backstage/department/Updatedepartment.jsp" location="5450,150" dimension="292,48" />
+  <StrutsActivity path="/backstage/position/tree_position.jsp" location="6050,150" dimension="262,48" />
+  <StrutsActivity path="/backstage/position/Updateposition_permit.jsp" location="7250,150" dimension="310,48" />
+  <StrutsActivity path="/backstage/position/Updateposition.jsp" location="7550,950" dimension="268,48" />
+  <StrutsActivity path="/backstage/position/Listposition.jsp" location="6650,150" dimension="256,48" />
+  <StrutsActivity path="/front/bbs/index.jsp" location="6950,350" dimension="160,48" />
+  <StrutsActivity path="/front/bbs/interactive/Addsend.jsp" location="3650,2950" dimension="244,48" />
+  <StrutsActivity path="/front/bbs/Searchpostlist.jsp" location="7250,650" dimension="214,48" />
+  <StrutsActivity path="/front/bbs/Setcolor.jsp" location="50,550" dimension="178,48" />
+  <StrutsActivity path="/front/bbs/interactive/Showinteractive.jsp" location="4850,2950" dimension="292,48" />
+  <StrutsActivity path="/front/bbs/Listforum.jsp" location="6050,850" dimension="184,48" />
+  <StrutsActivity path="/front/bbs/Showuser.jsp" location="7550,250" dimension="178,48" />
+  <StrutsActivity path="/front/bbs/interactive/Listreceiver.jsp" location="3950,2950" dimension="274,48" />
+  <StrutsActivity path="/front/bbs/interactive/Listsend.jsp" location="50,750" dimension="250,48" />
+  <StrutsActivity path="/front/bbs/Searchpost.jsp" location="50,650" dimension="190,48" />
+  <StrutsActivity path="/front/bbs/interactive/Showsend.jsp" location="7250,750" dimension="250,48" />
+  <StrutsActivity path="/front/bbs/interactive/Addreply.jsp" location="5450,2950" dimension="250,48" />
+  <StrutsActivity path="/front/bbs/login.jsp" location="7550,650" dimension="160,48" />
+  <StrutsActivity path="/front/bbs/manage/Addmoderator.jsp" location="4550,250" dimension="244,48" />
+  <StrutsActivity path="/front/bbs/manage/Listcategory.jsp" location="6050,2850" dimension="244,48" />
+  <StrutsActivity path="/front/bbs/manage/Updatefirstforum.jsp" location="7250,2850" dimension="268,48" />
+  <StrutsActivity path="/front/bbs/manage/Listfirstforum.jsp" location="6050,350" dimension="256,48" />
+  <StrutsActivity path="/front/bbs/manage/Addsecondforum.jsp" location="7250,350" dimension="256,48" />
+  <StrutsActivity path="/front/bbs/manage/Updatesecondforum.jsp" location="7250,450" dimension="274,48" />
+  <StrutsActivity path="/front/bbs/manage/Listsecondforum.jsp" location="50,2950" dimension="262,48" />
+  <StrutsActivity path="/front/bbs/manage/Addforum.jsp" location="6350,2850" dimension="220,48" />
+  <StrutsActivity path="/front/bbs/Addpost.jsp" location="1550,2950" dimension="172,48" />
+  <StrutsActivity path="/front/bbs/Updatevote.jsp" location="7550,750" dimension="190,48" />
+  <StrutsActivity path="/front/bbs/Listpost.jsp" location="4550,350" dimension="178,48" />
+  <StrutsActivity path="/front/bbs/Showvote.jsp" location="6050,450" dimension="178,48" />
+  <StrutsActivity path="/front/bbs/Showpost.jsp" location="1850,2950" dimension="178,48" />
+  <StrutsActivity path="/front/bbs/Updatepost.jsp" location="7550,2650" dimension="190,48" />
+  <StrutsActivity path="/front/bbs/Addvote.jsp" location="2150,2950" dimension="172,48" />
+  <StrutsActivity path="/front/bbs/Addrepost.jsp" location="6650,350" dimension="184,48" />
+  <StrutsActivity path="/front/bbs/manage/Updateparams.jsp" location="2750,2950" dimension="244,48" />
+  <StrutsActivity path="/front/bbs/manage/Listrank.jsp" location="7250,550" dimension="220,48" />
+  <StrutsActivity path="/front/bbs/friend/Listfriend.jsp" location="7550,550" dimension="232,48" />
+  <StrutsActivity path="/backstage/createcode/Listcreatecode.jsp" location="7550,850" dimension="280,48" />
+  <StrutsActivity path="/backstage/createcode/Addcreatecodeforservice.jsp" location="2750,3650" dimension="334,48" />
+  <StrutsActivity path="/backstage/createcode/Addcreatecode.jsp" location="6650,850" dimension="274,48" />
+  <StrutsActivity path="/backstage/createcode/Createsuccess.jsp" location="7550,2750" dimension="274,48" />
+  <StrutsActivity path="/backstage/createcode/Addcreateproject.jsp" location="8450,550" dimension="292,48" />
+  <StrutsActivity path="/backstage/museum/exhibition/Updateexhibitionshow.jsp" location="8450,2850" dimension="358,48" />
+  <StrutsActivity path="/backstage/front/article/Updatearticle.jsp" location="7250,1250" dimension="292,48" />
+  <StrutsActivity path="/backstage/front/article/Updatearticlerili.jsp" location="8450,450" dimension="316,48" />
+  <StrutsActivity path="/backstage/museum/exhibition/Showexhibitionshow.jsp" location="8450,3350" dimension="346,48" />
+  <StrutsActivity path="/backstage/front/article/Updatearticlesummary.jsp" location="7550,1550" dimension="334,48" />
+  <StrutsActivity path="/backstage/front/article/Showarticle.jsp" location="1250,1350" dimension="280,48" />
+  <StrutsActivity path="/backstage/front/article/Updatearticle_type.jsp" location="650,3050" dimension="322,48" />
+  <StrutsActivity path="/backstage/front/module/Updatemodule.jsp" location="7550,3250" dimension="280,48" />
+  <StrutsActivity path="/backstage/front/article_column/Updatearticle_column2.jsp" location="2750,1550" dimension="382,48" />
+  <StrutsActivity path="/backstage/front/article_column/Updatearticle_column.jsp" location="3050,1150" dimension="376,48" />
+  <StrutsActivity path="/backstage/front/article_column/Showarticle_column.jsp" location="7550,1150" dimension="364,48" />
+  <StrutsActivity path="/backstage/front/article_column/Addarticle_column2.jsp" location="7850,3350" dimension="364,48" />
+  <StrutsActivity path="/backstage/front/friendlink/Updatefriendlink.jsp" location="7850,450" dimension="328,48" />
+  <StrutsActivity path="/backstage/front/friendlink/Showfriendlink.jsp" location="7850,550" dimension="316,48" />
+  <StrutsActivity path="/backstage/product/Updateproduct.jsp" location="7850,650" dimension="256,48" />
+  <StrutsActivity path="/backstage/product/Showproduct.jsp" location="7850,750" dimension="244,48" />
+  <StrutsActivity path="/backstage/product/Showin_product.jsp" location="7850,1250" dimension="262,48" />
+  <StrutsActivity path="/backstage/product/Updatein_product.jsp" location="7850,1350" dimension="274,48" />
+  <StrutsActivity path="/backstage/product/Out_productdo.jsp" location="7850,1450" dimension="256,48" />
+  <StrutsActivity path="/backstage/product/Showout_product.jsp" location="5450,3350" dimension="268,48" />
+  <StrutsActivity path="/backstage/assets/Showassets.jsp" location="7550,1850" dimension="232,48" />
+  <StrutsActivity path="/backstage/assets/Outassets.jsp" location="1250,1050" dimension="226,48" />
+  <StrutsActivity path="/backstage/assets/Useassets.jsp" location="2750,3050" dimension="226,48" />
+  <StrutsActivity path="/backstage/assets/Updateassets.jsp" location="7850,1850" dimension="244,48" />
+  <StrutsActivity path="/backstage/assets/Updateassets_use.jsp" location="7250,1950" dimension="268,48" />
+  <StrutsActivity path="/backstage/assets/Showassets_use.jsp" location="7850,1950" dimension="256,48" />
+  <StrutsActivity path="/backstage/assets/Updateassets_out.jsp" location="3350,2050" dimension="268,48" />
+  <StrutsActivity path="/backstage/assets/Showassets_out.jsp" location="7250,2050" dimension="256,48" />
+  <StrutsActivity path="/backstage/museum/subscribe_email/Updatesubscribe_email.jsp" location="7550,3450" dimension="394,48" />
+  <StrutsActivity path="/backstage/museum/subscribe_email/Showsubscribe_email.jsp" location="8150,3450" dimension="382,48" />
+  <StrutsActivity path="/backstage/museum/experts/Updateexperts.jsp" location="6350,3450" dimension="298,48" />
+  <StrutsActivity path="/backstage/museum/experts/Showexperts.jsp" location="6950,3450" dimension="286,48" />
+  <StrutsActivity path="/backstage/museum/publications/Showpublications.jsp" location="50,3550" dimension="346,48" />
+  <StrutsActivity path="/backstage/museum/publications/Updatepublications.jsp" location="950,3550" dimension="358,48" />
+  <StrutsActivity path="/backstage/museum/exhibition/Updateexhibition.jsp" location="8150,3250" dimension="334,48" />
+  <StrutsActivity path="/backstage/museum/exhibition/Listart_goods.jsp" location="8150,1150" dimension="316,48" />
+  <StrutsActivity path="/backstage/museum/exhibition/Showexhibition.jsp" location="5750,3450" dimension="322,48" />
+  <StrutsActivity path="/backstage/museum/art_goods/Updateart_goods.jsp" location="2150,1750" dimension="322,48" />
+  <StrutsActivity path="/backstage/museum/art_goods/Showart_goods.jsp" location="7250,1750" dimension="310,48" />
+  <StrutsActivity path="/backstage/jgw/Showjgw_words.jsp" location="1250,1750" dimension="232,48" />
+  <StrutsActivity path="/backstage/jgw/Updatejgw_words.jsp" location="3350,1750" dimension="244,48" />
+  <StrutsActivity path="/backstage/jgw/Showjgw_collection.jsp" location="1250,3650" dimension="262,48" />
+  <StrutsActivity path="/backstage/jgw/Updatejgw_collection.jsp" location="1850,3650" dimension="274,48" />
+  <StrutsActivity path="/backstage/pictures/Addpiliang.jsp" location="8450,850" dimension="244,48" />
+  <StrutsActivity path="/backstage/pictures/Updatepictures.jsp" location="8450,650" dimension="268,48" />
+  <StrutsActivity path="/backstage/pictures/Showpictures.jsp" location="8450,750" dimension="256,48" />
+  <StrutsActivity path="/backstage/picturegroup/Updatepicture_group.jsp" location="5750,3650" dimension="322,48" />
+  <StrutsActivity path="/backstage/picturegroup/Showpicture_group.jsp" location="6350,3650" dimension="310,48" />
+  <StrutsActivity path="/backstage/videos/Showvideos.jsp" location="6950,3650" dimension="232,48" />
+  <StrutsActivity path="/backstage/videos/Updatevideos.jsp" location="7250,3650" dimension="244,48" />
+  <StrutsActivity path="/backstage/video_group/Updatevideo_group.jsp" location="7850,2350" dimension="316,53" />
+  <StrutsActivity path="/backstage/video_group/Showvideo_group.jsp" location="7250,2350" dimension="304,53" />
+  <StrutsActivity path="/backstage/Showpic_rel.jsp" location="8450,2350" dimension="190,53" />
+  <StrutsActivity path="/backstage/Updatepic_rel.jsp" location="1550,2550" dimension="202,53" />
+  <StrutsActivity path="/backstage/Showvideo_rel.jsp" location="8450,2550" dimension="205,53" />
+  <StrutsActivity path="/backstage/Updatevideo_rel.jsp" location="7550,3650" dimension="217,53" />
+  <StrutsActivity path="/JGW/WORDS/Showjgw_words.jsp" location="6050,2250" dimension="208,48" />
+  <StrutsActivity path="/JGW/WORDS/Updatejgw_words.jsp" location="7250,2250" dimension="220,48" />
+  <StrutsActivity path="/front/web/common/login.jsp" location="3350,1650" dimension="202,48" />
+  <StrutsActivity path="/backstage/museum/goods/Showgoods.jsp" location="8150,1550" dimension="262,48" />
+  <StrutsActivity path="/backstage/museum/goods/Updategoods.jsp" location="8150,1650" dimension="274,48" />
+  <StrutsActivity path="/front/web/ListExperts.jsp" location="1250,1650" dimension="196,48" />
+  <StrutsActivity path="/front/web/ListPublications.jsp" location="8150,150" dimension="226,48" />
+  <StrutsActivity path="/front/web/Showmedia.jsp" location="8150,3150" dimension="184,48" />
+  <StrutsActivity path="/front/web/ListExhibition.jsp" location="6350,1250" dimension="214,48" />
+  <StrutsActivity path="/backstage/front/article/Updateexhibition.jsp" location="7550,1650" dimension="310,48" />
+  <StrutsActivity path="/backstage/subscribe_email/Updatesubscribe_email.jsp" location="7550,2550" dimension="352,48" />
+  <StrutsActivity path="/backstage/subscribe_email/Showsubscribe_email.jsp" location="7850,2650" dimension="340,48" />
+  <StrutsActivity path="/backstage/experts/Updateexperts.jsp" location="3350,2150" dimension="256,48" />
+  <StrutsActivity path="/backstage/experts/Showexperts.jsp" location="5750,2150" dimension="244,48" />
+  <StrutsActivity path="/backstage/publications/Showpublications.jsp" location="8150,2950" dimension="304,48" />
+  <StrutsActivity path="/backstage/publications/Updatepublications.jsp" location="8150,3050" dimension="316,48" />
+  <StrutsActivity path="/backstage/permit/tree_permit.jsp" location="3050,2750" dimension="238,48" />
+  <StrutsActivity path="/backstage/module/Updatebackstage.jsp" location="6950,250" dimension="262,48" />
+  <StrutsActivity path="/backstage/module/Updatemodule_param.jsp" location="6950,50" dimension="280,48" />
+  <StrutsActivity path="/backstage/module/Addsonmodule.jsp" location="3350,2750" dimension="244,48" />
+  <StrutsActivity path="/backstage/module/Updatemodule.jsp" location="3950,2750" dimension="244,48" />
+  <StrutsActivity path="/front/web/leftarticle_column.jsp" location="50,3450" dimension="238,48" />
+  <StrutsActivity path="/front/web/news.jsp" location="7550,50" dimension="154,48" />
+  <StrutsActivity path="/backstage/front/module/Updatearticle_column.jsp" location="7550,3050" dimension="328,48" />
+  <StrutsActivity path="/backstage/front/module/Showarticle_column.jsp" location="7550,3150" dimension="316,48" />
+  <StrutsActivity path="/backstage/article/Updatearticle.jsp" location="1250,1250" dimension="256,48" />
+  <StrutsActivity path="/backstage/article/Showarticle.jsp" location="3050,1250" dimension="244,48" />
+  <StrutsActivity path="/Updatearticle.jsp" location="7250,1350" dimension="148,48" />
+  <StrutsActivity path="/Addarticle.jsp" location="7550,1350" dimension="130,48" />
+  <StrutsActivity path="/Listarticle.jsp" location="50,1450" dimension="136,48" />
+  <StrutsActivity path="/Addfront_module.jsp" location="4550,3150" dimension="160,48" />
+  <StrutsActivity path="/Listfont_module.jsp" location="7250,1450" dimension="160,48" />
+  <StrutsActivity path="/Listarticle_column.jsp" location="50,1550" dimension="178,48" />
+  <StrutsActivity path="/Updatearticle_column.jsp" location="1550,1550" dimension="190,48" />
+  <StrutsActivity path="/Addarticle_column.jsp" location="1850,1550" dimension="172,48" />
+  <StrutsActivity path="/backstage/permit/Listpermit.jsp" location="2750,2750" dimension="232,48" />
+  <StrutsActivity path="/Addfont_module.jsp" location="3350,1450" dimension="154,48" />
+  <StrutsActivity path="/Updatefont_module.jsp" location="7550,1450" dimension="172,48" />
+  <StrutsActivity path="/backstage/article/Updatearticle_type.jsp" location="7550,1050" dimension="286,48" />
+  <StrutsActivity path="/Listbase_type.jsp" location="2750,1450" dimension="148,48" />
+  <StrutsActivity path="/Addbase_type.jsp" location="3050,1450" dimension="142,48" />
+  <StrutsActivity path="/Updatebase_type.jsp" location="2150,1450" dimension="160,48" />
+  <StrutsActivity path="/front/bbs/Listfriend.jsp" location="6050,2950" dimension="190,48" />
+  <StrutsActivity path="/backstage/position/ListPosition.jsp" location="3350,2850" dimension="256,48" />
+  <StrutsActivity path="/backstage/Showuser.jsp" location="2150,50" dimension="178,48" />
+  <StrutsActivity path="/backstage/Updateuserpwd.jsp" location="1550,50" dimension="208,48" />
+  <StrutsActivity path="/backstage/Listuser.jsp" location="50,2550" dimension="178,48" />
+  <StrutsActivity path="/backstage/reg.jsp" location="2450,50" dimension="148,48" />
+  <StrutsActivity path="/backstage/Updateuser_role.jsp" location="3950,50" dimension="220,48" />
+  <StrutsActivity path="/backstage/Updateuser.jsp" location="3050,50" dimension="190,48" />
+  <StrutsActivity path="/backstage/Listroles.jsp" location="1850,2450" dimension="184,48" />
+  <StrutsActivity path="/backstage/Updaterole_permit.jsp" location="4550,50" dimension="232,48" />
+  <StrutsActivity path="/backstage/tree_permit.jsp" location="1550,2450" dimension="196,48" />
+  <StrutsActivity path="/backstage/Addsonmodule.jsp" location="6650,50" dimension="202,48" />
+  <StrutsActivity path="/backstage/Listmodule.jsp" location="3050,2550" dimension="190,48" />
+  <StrutsActivity path="/backstage/Updatemodule.jsp" location="1250,150" dimension="202,48" />
+  <StrutsActivity path="/front/tree.jsp" location="4550,1750" dimension="130,48" />
+  <StrutsActivity path="/backstage/Addsonnode.jsp" location="4250,2550" dimension="190,48" />
+  <StrutsActivity path="/backstage/ListTree_sucai.jsp" location="6050,2550" dimension="214,48" />
+  <StrutsActivity path="/backstage/UpdateNode.jsp" location="6350,2550" dimension="190,48" />
+  <StrutsActivity path="/backstage/Listpermit.jsp" location="3650,150" dimension="190,48" />
+  <StrutsActivity path="/backstage/Listinteractive.jsp" location="2150,150" dimension="220,48" />
+  <StrutsActivity path="/backstage/Listisread.jsp" location="1250,2650" dimension="190,48" />
+  <StrutsActivity path="/backstage/Addsend.jsp" location="6350,2650" dimension="172,48" />
+  <StrutsActivity path="/backstage/Addmessage.jsp" location="5750,2650" dimension="190,48" />
+  <StrutsActivity path="/backstage/Showunread.jsp" location="5150,2650" dimension="190,48" />
+  <StrutsActivity path="/backstage/Addreply.jsp" location="6050,2650" dimension="178,48" />
+  <StrutsActivity path="/backstage/Addtjman.jsp" location="3950,3450" dimension="178,48" />
+  <StrutsActivity path="/backstage/Showinteractive.jsp" location="3050,2650" dimension="220,48" />
+  <StrutsActivity path="/backstage/Listunread.jsp" location="1550,150" dimension="190,48" />
+  <StrutsActivity path="/backstage/ListFunctionShow2.jsp" location="6350,3250" dimension="232,48" />
+  <StrutsActivity path="/backstage/AddRolesFunction2.jsp" location="6650,3250" dimension="232,48" />
+  <StrutsActivity path="/backstage/ListFunctionByRolesShow2.jsp" location="6950,3250" dimension="274,48" />
+  <StrutsActivity path="/backstage/UpdateFunction2.jsp" location="350,3350" dimension="220,48" />
+  <StrutsActivity path="/ListRolesByUserShow2.jsp" location="1850,2050" dimension="190,48" />
+  <StrutsActivity path="/backstage/AddUserRoles2.jsp" location="5450,3250" dimension="208,48" />
+  <StrutsActivity path="/backstage/UpdateRoles2.jsp" location="5750,3250" dimension="202,48" />
+  <StrutsActivity path="/backstage/ListRolesShow2.jsp" location="6050,3250" dimension="214,48" />
+  <StrutsActivity path="/backstage/ShowPersonUser2.jsp" location="3050,3050" dimension="220,48" />
+  <StrutsActivity path="/backstage/UpdatePersonUser2.jsp" location="3650,3050" dimension="232,48" />
+  <StrutsActivity path="/backstage/UpdatePersonUserShenHe2.jsp" location="3950,3050" dimension="268,48" />
+  <StrutsActivity path="/backstage/ListShowUser2.jsp" location="4850,3050" dimension="208,48" />
+  <StrutsActivity path="/backstage/UpdateUser2.jsp" location="5450,3050" dimension="196,48" />
+  <StrutsActivity path="/backstage/index2.jsp" location="3350,3050" dimension="166,48" />
+  <StrutsActivity path="/backstage/reg2.jsp" location="4550,3050" dimension="154,48" />
+  <StrutsActivity path="/backstage/Updatejingtai.jsp" location="6350,450" dimension="208,48" />
+  <StrutsActivity path="/backstage/Addyuanxiaojingtai.jsp" location="6650,450" dimension="238,48" />
+  <StrutsActivity path="/backstage/Addjingtai.jsp" location="6950,450" dimension="190,48" />
+  <StrutsActivity path="/backstage/Listjingtai.jsp" location="6050,550" dimension="196,48" />
+  <StrutsActivity path="/backstage/niantongjitu.jsp" location="6350,550" dimension="202,48" />
+  <StrutsActivity path="/backstage/dianjitongjitu.jsp" location="6650,550" dimension="214,48" />
+  <StrutsActivity path="/backstage/dianjiquyuzhuxingtu.jsp" location="6950,550" dimension="244,48" />
+  <StrutsActivity path="/backstage/tongjitu.jsp" location="6350,650" dimension="178,48" />
+  <StrutsActivity path="/backstage/yuetongjitu.jsp" location="6650,650" dimension="196,48" />
+  <StrutsActivity path="/backstage/quyuzhuxingtu.jsp" location="6950,650" dimension="208,48" />
+  <StrutsActivity path="/backstage/dianjiyuetongjitu.jsp" location="6350,750" dimension="232,48" />
+  <StrutsActivity path="/backstage/dianjiniantongjitu.jsp" location="6650,750" dimension="238,48" />
+  <StrutsActivity path="/backstage/Listdianji.jsp" location="6950,950" dimension="190,48" />
+  <StrutsActivity path="/backstage/Listdenglu.jsp" location="6350,1050" dimension="190,48" />
+  <StrutsActivity path="/backstage/listpinglun.jsp" location="6050,1250" dimension="196,48" />
+  <StrutsActivity path="/front/pinglun.jsp" location="5150,250" dimension="148,48" />
+  <StrutsActivity path="/backstage/listpiczhengli.jsp" location="6650,1350" dimension="214,48" />
+  <StrutsActivity path="/backstage/schoolstyle2.jsp" location="6950,1350" dimension="202,48" />
+  <StrutsActivity path="/backstage/listtuijian.jsp" location="6350,1450" dimension="196,48" />
+  <StrutsActivity path="/common/gotourl.jsp" location="1550,550" dimension="154,48" />
+  <StrutsActivity path="/backstage/Updatejiedian.jsp" location="6650,2150" dimension="208,48" />
+  <StrutsActivity path="/backstage/listleibie.jsp" location="6950,1950" dimension="190,48" />
+  <StrutsActivity path="/backstage/Addjiedian.jsp" location="6950,2150" dimension="190,48" />
+  <StrutsActivity path="/backstage/redianshezhi2.jsp" location="6950,2250" dimension="208,48" />
+  <StrutsActivity path="/backstage/UpdateGonggao2.jsp" location="6350,2350" dimension="214,48" />
+  <StrutsActivity path="/backstage/listgonggao2.jsp" location="6650,2350" dimension="202,48" />
+  <StrutsActivity path="/backstage/AddGonggao2.jsp" location="6950,2350" dimension="196,48" />
+  <StrutsActivity path="/backstage/UpdateSchool2.jsp" location="3350,2650" dimension="208,48" />
+  <StrutsActivity path="/backstage/ListSchoolShow2.jsp" location="3650,2650" dimension="220,48" />
+  <StrutsActivity path="/backstage/myschool.jsp" location="6950,750" dimension="178,48" />
+  <StrutsActivity path="/backstage/AddSchool2.jsp" location="3950,2650" dimension="190,48" />
+  <StrutsActivity path="/backstage/UpdateModules2.jsp" location="4250,2650" dimension="214,48" />
+  <StrutsActivity path="/backstage/ListModulesShow2.jsp" location="4550,2650" dimension="226,48" />
+  <StrutsActivity path="/backstage/AddModules2.jsp" location="4850,2650" dimension="196,48" />
+  <StrutsActivity path="/front/zhuantiliulan.jsp" location="5150,450" dimension="184,48" />
+  <StrutsActivity path="/front/tree4.jsp" location="4250,1050" dimension="136,48" />
+  <StrutsActivity path="/front/tree5.jsp" location="4850,1050" dimension="136,48" />
+  <StrutsActivity path="/front/index.jsp" location="350,950" dimension="136,48" />
+  <StrutsActivity path="/front/yuanxiaogoodshow4.jsp" location="3950,2150" dimension="208,48" />
+  <StrutsActivity path="/front/top3.jsp" location="4250,2050" dimension="130,48" />
+  <StrutsActivity path="/front/yuanxiaothemeshow5.jsp" location="4850,1750" dimension="214,48" />
+  <StrutsActivity path="/front/yuanxiaothemeshow4.jsp" location="4550,450" dimension="214,48" />
+  <StrutsActivity path="/front/yuanxiaogoodshow3.jsp" location="4250,2150" dimension="208,48" />
+  <StrutsActivity path="/front/yuanxiaotheme2.jsp" location="4550,1350" dimension="190,48" />
+  <StrutsActivity path="/front/XuekeTwo.jsp" location="6050,1350" dimension="154,48" />
+  <StrutsActivity path="/front/tree2.jsp" location="4550,950" dimension="136,48" />
+  <StrutsActivity path="/front/tuijiantheme.jsp" location="6050,1050" dimension="178,48" />
+  <StrutsActivity path="/front/nosessionfront.jsp" location="4850,1550" dimension="190,48" />
+  <StrutsActivity path="/front/Updategerenbowuguan.jsp" location="3950,850" dimension="220,48" />
+  <StrutsActivity path="/front/yuanxiaogonggaowu.jsp" location="5450,550" dimension="208,48" />
+  <StrutsActivity path="/front/yuanxiaogonggaosi.jsp" location="5450,650" dimension="208,48" />
+  <StrutsActivity path="/front/shanghaijiaoda.jsp" location="3050,350" dimension="190,48" />
+  <StrutsActivity path="/front/yuanxiaoshoucangtheme.jsp" location="4850,1250" dimension="232,48" />
+  <StrutsActivity path="/front/yuanxiaomain3.jsp" location="2150,2150" dimension="184,48" />
+  <StrutsActivity path="/front/yuanxiaogonggaosan.jsp" location="5450,750" dimension="214,48" />
+  <StrutsActivity path="/front/goodshow.jsp" location="1550,250" dimension="154,48" />
+  <StrutsActivity path="/front/moregoodlist.jsp" location="2750,1150" dimension="178,48" />
+  <StrutsActivity path="/front/yuanxiaogonggaoyi.jsp" location="5150,850" dimension="208,48" />
+  <StrutsActivity path="/front/goodlist.jsp" location="350,1050" dimension="154,48" />
+  <StrutsActivity path="/front/geren.jsp" location="4250,750" dimension="136,48" />
+  <StrutsActivity path="/front/zhuantitheme.jsp" location="5150,550" dimension="178,48" />
+  <StrutsActivity path="/front/tuijiangood.jsp" location="6050,1150" dimension="172,48" />
+  <StrutsActivity path="/front/gonggao.jsp" location="5150,650" dimension="148,48" />
+  <StrutsActivity path="/front/yuanxiaogoodshow2.jsp" location="4550,2150" dimension="208,48" />
+  <StrutsActivity path="/front/yuanxiaomain2.jsp" location="2450,2150" dimension="184,48" />
+  <StrutsActivity path="/front/XuekeThree.jsp" location="5750,1450" dimension="166,48" />
+  <StrutsActivity path="/front/Xuekemoregoodlist.jsp" location="6050,1450" dimension="208,48" />
+  <StrutsActivity path="/front/yuanxiaogood2.jsp" location="3950,1350" dimension="184,48" />
+  <StrutsActivity path="/front/tree3.jsp" location="4550,1150" dimension="136,48" />
+  <StrutsActivity path="/front/yuanxiaogood3.jsp" location="4850,850" dimension="184,48" />
+  <StrutsActivity path="/front/Showmedia.jsp" location="5450,1550" dimension="160,48" />
+  <StrutsActivity path="/front/Showgerenbowuguan.jsp" location="3950,1050" dimension="208,48" />
+  <StrutsActivity path="/front/themelist.jsp" location="1850,250" dimension="160,48" />
+  <StrutsActivity path="/front/Addgeren.jsp" location="350,850" dimension="154,48" />
+  <StrutsActivity path="/front/yuanxiaomain4.jsp" location="2750,2150" dimension="184,48" />
+  <StrutsActivity path="/front/tongji.jsp" location="5750,1550" dimension="142,48" />
+  <StrutsActivity path="/front/yuanxiaofenguan.jsp" location="50,450" dimension="196,48" />
+  <StrutsActivity path="/front/yuanxiaomain5.jsp" location="4850,2050" dimension="184,48" />
+  <StrutsActivity path="/front/yuanxiaotheme5.jsp" location="4850,2150" dimension="190,48" />
+  <StrutsActivity path="/front/yuanxiaogoodshow5.jsp" location="1250,2250" dimension="208,48" />
+  <StrutsActivity path="/front/XuekeFour.jsp" location="5450,1650" dimension="160,48" />
+  <StrutsActivity path="/front/yuanxiaoshoucanggood.jsp" location="4850,1150" dimension="226,48" />
+  <StrutsActivity path="/front/top5.jsp" location="1550,2250" dimension="130,48" />
+  <StrutsActivity path="/front/gerenxinxi.jsp" location="3950,2250" dimension="166,48" />
+  <StrutsActivity path="/front/yuanxiaogood5.jsp" location="4850,1950" dimension="184,48" />
+  <StrutsActivity path="/front/yuanxiaofenguanshow.jsp" location="2450,350" dimension="220,48" />
+  <StrutsActivity path="/front/zhuanti.jsp" location="5150,1850" dimension="148,48" />
+  <StrutsActivity path="/front/guanyuwomen.jsp" location="5150,2150" dimension="172,48" />
+  <StrutsActivity path="/front/yuanxiaofenguanshow3.jsp" location="1550,2150" dimension="226,48" />
+  <StrutsActivity path="/front/themeliulan.jsp" location="4250,2250" dimension="172,48" />
+  <StrutsActivity path="/front/top2.jsp" location="4550,2050" dimension="130,48" />
+  <StrutsActivity path="/front/yuanxiaogoodshow.jsp" location="3950,2050" dimension="202,48" />
+  <StrutsActivity path="/front/yuanxiaotheme4.jsp" location="4550,1450" dimension="190,48" />
+  <StrutsActivity path="/front/top4.jsp" location="1250,2150" dimension="130,48" />
+  <StrutsActivity path="/front/regsuccess.jsp" location="1250,1450" dimension="166,48" />
+  <StrutsActivity path="/front/botree.jsp" location="1550,2350" dimension="142,48" />
+  <StrutsActivity path="/front/yuanxiaothemeshow3.jsp" location="4850,650" dimension="214,48" />
+  <StrutsActivity path="/front/themeshow.jsp" location="1850,1050" dimension="160,48" />
+  <StrutsActivity path="/front/yuanxiaothemeshow2.jsp" location="4850,750" dimension="214,48" />
+  <StrutsActivity path="/front/yuanxiaotheme3.jsp" location="3050,2150" dimension="190,48" />
+  <StrutsActivity path="/front/top.jsp" location="4550,550" dimension="124,48" />
+  <StrutsActivity path="/front/Showmedia2.jsp" location="5450,1750" dimension="166,48" />
+  <StrutsActivity path="/front/Showmedia1.jsp" location="5750,1750" dimension="166,48" />
+  <StrutsActivity path="/front/Showwenxian.jsp" location="3650,750" dimension="172,48" />
+  <StrutsActivity path="/front/Showmedia5.jsp" location="5750,1850" dimension="166,48" />
+  <StrutsActivity path="/front/Showmedia4.jsp" location="5450,2550" dimension="166,48" />
+  <StrutsActivity path="/front/yuanxiaogonggaoer.jsp" location="5450,1050" dimension="208,48" />
+  <StrutsActivity path="/front/Showmedia3.jsp" location="350,2650" dimension="166,48" />
+  <StrutsActivity path="/front/morethemelist.jsp" location="350,450" dimension="184,48" />
+  <StrutsActivity path="/front/yuanxiaofenguanshow5.jsp" location="4850,1850" dimension="226,48" />
+  <StrutsActivity path="/front/yuanxiaothemeshow.jsp" location="4550,850" dimension="208,48" />
+  <StrutsActivity path="/front/yuanxiaotheme.jsp" location="350,2050" dimension="184,48" />
+  <StrutsActivity path="/front/gonggaoshow.jsp" location="3050,650" dimension="172,48" />
+  <StrutsActivity path="/front/Mygerenshow.jsp" location="4250,1750" dimension="172,48" />
+  <StrutsActivity path="/front/yuanxiaogood.jsp" location="4550,650" dimension="178,48" />
+  <StrutsActivity path="/front/reg.jsp" location="950,1450" dimension="124,48" />
+  <StrutsActivity path="/front/yuanxiaofenguanshow4.jsp" location="1850,2150" dimension="226,48" />
+  <StrutsActivity path="/front/yuanxiaofenguanshow2.jsp" location="4550,1650" dimension="226,48" />
+  <StrutsActivity path="/front/yuanxiaogood4.jsp" location="4850,950" dimension="184,48" />
+  <StrutsActivity path="/front/yuanxiaomain.jsp" location="4550,1950" dimension="178,48" />
+  <StrutsActivity path="/front/XuekeOne.jsp" location="6050,1850" dimension="154,48" />
+  <StrutsActivity path="/front/rdtj.jsp" location="5150,750" dimension="130,48" />
+  <StrutsActivity path="/backstage/MediaTypeShow2.jsp" location="5150,3150" dimension="214,48" />
+  <StrutsActivity path="/backstage/UpdateMediaType2.jsp" location="5450,3150" dimension="226,48" />
+  <StrutsActivity path="/backstage/MediaFormatShow2.jsp" location="5750,3150" dimension="226,48" />
+  <StrutsActivity path="/backstage/UpdateMediaFormat2.jsp" location="6050,3150" dimension="238,48" />
+  <StrutsActivity path="/backstage/AddMediaFormat2.jsp" location="6350,3150" dimension="220,48" />
+  <StrutsActivity path="/backstage/listxgrizhi.jsp" location="6950,3350" dimension="196,48" />
+  <StrutsActivity path="/backstage/listdlrizhi.jsp" location="950,3450" dimension="196,48" />
+  <StrutsActivity path="/backstage/listtjrizhi.jsp" location="1250,3450" dimension="196,48" />
+  <StrutsActivity path="/backstage/showxinxi.jsp" location="1550,3450" dimension="184,48" />
+  <StrutsActivity path="/backstage/listyidu.jsp" location="1850,3450" dimension="178,48" />
+  <StrutsActivity path="/backstage/Addhuifuxinxi.jsp" location="2150,3450" dimension="208,48" />
+  <StrutsActivity path="/backstage/listyifasong.jsp" location="2450,3450" dimension="202,48" />
+  <StrutsActivity path="/backstage/Addfasong.jsp" location="2750,3450" dimension="184,48" />
+  <StrutsActivity path="/backstage/listweidu.jsp" location="3050,3450" dimension="184,48" />
+  <StrutsActivity path="/backstage/Addxiaoxi.jsp" location="3350,3450" dimension="184,48" />
+  <StrutsActivity path="/backstage/showweiduxinxi.jsp" location="3650,3450" dimension="214,48" />
+  <StrutsActivity path="/front/tesefuwu.jsp" location="5450,1250" dimension="154,48" />
+  <StrutsActivity path="/front/yijianfankui.jsp" location="6050,2350" dimension="178,48" />
+  <StrutsActivity path="/backstage/ListYijian.jsp" location="4850,3450" dimension="190,48" />
+  <StrutsActivity path="/front/ListLeibieGeren.jsp" location="3050,3950" dimension="196,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listzhuanti.jsp" location="350,2550" dimension="262,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Showtheme.jsp" location="1250,2550" dimension="250,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listgood.jsp" location="5150,1050" dimension="244,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/yuanxiaoshanghaiIndex.jsp" location="5450,850" dimension="322,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listzhuti.jsp" location="5450,1450" dimension="250,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listhuojianggood.jsp" location="5450,1150" dimension="292,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listleibie.jsp" location="5450,1350" dimension="256,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Showzhuti.jsp" location="1850,2550" dimension="250,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listtheme.jsp" location="950,2550" dimension="250,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Showzhuanti.jsp" location="2150,2550" dimension="262,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Showgood.jsp" location="5450,950" dimension="244,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Showgonggao.jsp" location="5750,750" dimension="262,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listgoodgaojisearch.jsp" location="5750,250" dimension="310,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Searchgood.jsp" location="5750,650" dimension="256,48" />
+  <StrutsActivity path="/backstage/chenggong.jsp" location="6350,850" dimension="184,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listgoodsearch.jsp" location="5750,1950" dimension="280,48" />
+  <StrutsActivity path="/front/shanghaijiaoda/Listleibiesearch.jsp" location="5750,2050" dimension="292,48" />
+  <StrutsActivity path="/backstage/Lmzhuti.jsp" location="6350,950" dimension="172,48" />
+  <StrutsActivity path="/backstage/sellanmu.jsp" location="6650,950" dimension="178,48" />
+  <StrutsActivity path="/backstage/selzhuantilm.jsp" location="6650,1050" dimension="202,48" />
+  <StrutsActivity path="/backstage/Listlanmu.jsp" location="6950,1050" dimension="184,48" />
+  <StrutsActivity path="/backstage/Addlanmu.jsp" location="50,1150" dimension="178,48" />
+  <StrutsActivity path="/backstage/selthemelm.jsp" location="6350,1150" dimension="190,48" />
+  <StrutsActivity path="/backstage/selzhutilm.jsp" location="6650,1150" dimension="190,48" />
+  <StrutsActivity path="/backstage/selgoodlm.jsp" location="6950,1150" dimension="184,48" />
+  <StrutsActivity path="/backstage/upshouyelanmu.jsp" location="50,1250" dimension="208,48" />
+  <StrutsActivity path="/backstage/Updatewenxiankuozhan.jsp" location="6650,1250" dimension="250,48" />
+  <StrutsActivity path="/backstage/ListWenxiankuozhan.jsp" location="6950,1250" dimension="238,48" />
+  <StrutsActivity path="/backstage/Addwenxiankuozhan.jsp" location="6350,1350" dimension="232,48" />
+  <StrutsActivity path="/backstage/Updatewenxianleixing2.jsp" location="6650,1450" dimension="256,48" />
+  <StrutsActivity path="/backstage/Listwenxianleixing2.jsp" location="6350,1550" dimension="244,48" />
+  <StrutsActivity path="/backstage/Addwenxianleixing2.jsp" location="6650,1550" dimension="238,48" />
+  <StrutsActivity path="/backstage/Updatethemewenxian2.jsp" location="6950,1550" dimension="244,48" />
+  <StrutsActivity path="/backstage/Showwenxian2.jsp" location="5750,1650" dimension="202,48" />
+  <StrutsActivity path="/backstage/Updatewenxian2.jsp" location="6350,1650" dimension="214,48" />
+  <StrutsActivity path="/backstage/Addwenxian2.jsp" location="6650,1650" dimension="196,48" />
+  <StrutsActivity path="/backstage/Listthemewenxian2.jsp" location="6950,1650" dimension="232,48" />
+  <StrutsActivity path="/backstage/Addthemewenxian2.jsp" location="6050,1750" dimension="226,48" />
+  <StrutsActivity path="/backstage/Showthemewenxian.jsp" location="6350,1750" dimension="226,48" />
+  <StrutsActivity path="/backstage/Listwenxian2.jsp" location="6650,1750" dimension="202,48" />
+  <StrutsActivity path="/backstage/Addziduan2.jsp" location="6950,1750" dimension="190,48" />
+  <StrutsActivity path="/backstage/Updateziduan2.jsp" location="6350,1850" dimension="208,48" />
+  <StrutsActivity path="/backstage/Listziduan2.jsp" location="6650,1850" dimension="196,48" />
+  <StrutsActivity path="/backstage/Updatejiedian2.jsp" location="6350,1950" dimension="214,48" />
+  <StrutsActivity path="/backstage/Addjiedianlist2.jsp" location="6650,1950" dimension="220,48" />
+  <StrutsActivity path="/backstage/listjishuguanxi2.jsp" location="6350,2050" dimension="226,48" />
+  <StrutsActivity path="/backstage/Addbowuguanleibie.jsp" location="6650,2050" dimension="232,48" />
+  <StrutsActivity path="/backstage/Updatebowuguanleibie.jsp" location="6950,2050" dimension="250,48" />
+  <StrutsActivity path="/backstage/bowuguanleibie.jsp" location="6350,2150" dimension="214,48" />
+  <StrutsActivity path="/backstage/UpdateZhanpinleibie.jsp" location="6350,2250" dimension="244,48" />
+  <StrutsActivity path="/backstage/AddZhanpinleibie.jsp" location="6650,2250" dimension="226,48" />
+  <StrutsActivity path="/backstage/UpdateZhuti.jsp" location="6350,2450" dimension="196,48" />
+  <StrutsActivity path="/backstage/AddZhuti.jsp" location="6650,2450" dimension="178,48" />
+  <StrutsActivity path="/backstage/ListZhutiShow.jsp" location="6950,2450" dimension="208,48" />
+  <StrutsActivity path="/backstage/UpdateZhuanti.jsp" location="6650,2550" dimension="208,48" />
+  <StrutsActivity path="/backstage/ListZhuantiShow.jsp" location="6950,2550" dimension="220,48" />
+  <StrutsActivity path="/backstage/themelistforcheck.jsp" location="1850,2650" dimension="232,48" />
+  <StrutsActivity path="/backstage/themelistforzhuanti.jsp" location="2450,2650" dimension="244,48" />
+  <StrutsActivity path="/backstage/AddZhuanti.jsp" location="2750,2650" dimension="190,48" />
+  <StrutsActivity path="/backstage/goodlistforcheck2.jsp" location="5750,3050" dimension="232,48" />
+  <StrutsActivity path="/backstage/updateGood2.jsp" location="6050,3050" dimension="196,48" />
+  <StrutsActivity path="/backstage/ListGoodShow2.jsp" location="6350,3050" dimension="208,48" />
+  <StrutsActivity path="/backstage/ListGoodShowAdmin.jsp" location="6650,3050" dimension="232,48" />
+  <StrutsActivity path="/backstage/Listgoodshoucang.jsp" location="6950,3050" dimension="226,48" />
+  <StrutsActivity path="/backstage/AddGood2.jsp" location="50,3150" dimension="178,48" />
+  <StrutsActivity path="/backstage/GoodShow2.jsp" location="950,3150" dimension="184,48" />
+  <StrutsActivity path="/backstage/UpdateTheme2.jsp" location="1250,3150" dimension="202,48" />
+  <StrutsActivity path="/backstage/Addcankao.jsp" location="1550,3150" dimension="184,48" />
+  <StrutsActivity path="/backstage/themelistforcheck2.jsp" location="1850,3150" dimension="238,48" />
+  <StrutsActivity path="/backstage/listptheme2.jsp" location="2150,3150" dimension="196,48" />
+  <StrutsActivity path="/backstage/AddTheme2.jsp" location="2450,3150" dimension="184,48" />
+  <StrutsActivity path="/backstage/Listshoucangtheme.jsp" location="2750,3150" dimension="232,48" />
+  <StrutsActivity path="/backstage/ThemeListShow2.jsp" location="3050,3150" dimension="214,48" />
+  <StrutsActivity path="/backstage/goodlistfortheme2.jsp" location="3350,3150" dimension="232,48" />
+  <StrutsActivity path="/backstage/listztheme2.jsp" location="3650,3150" dimension="196,48" />
+  <StrutsActivity path="/backstage/ThemeShow2.jsp" location="3950,3150" dimension="190,48" />
+  <StrutsActivity path="/backstage/liststheme2.jsp" location="4250,3150" dimension="196,48" />
+  <StrutsActivity path="/common/success.jsp" location="2450,650" dimension="154,48" />
+  <StrutsActivity path="/backstage/ThemeListAdmin.jsp" location="4850,3150" dimension="214,48" />
+  <StrutsActivity path="/backstage/UpdateDuringFormat2.jsp" location="6650,3150" dimension="244,48" />
+  <StrutsActivity path="/backstage/DuringFormatShow2.jsp" location="6950,3150" dimension="232,48" />
+  <StrutsActivity path="/backstage/UpdateDuringType2.jsp" location="950,3250" dimension="232,48" />
+  <StrutsActivity path="/backstage/DuringTypeShow2.jsp" location="1250,3250" dimension="220,48" />
+  <StrutsActivity path="" location="960,2205" dimension="40,48" />
+  <StrutsActivity path="/backstage/UpdateFeatureType2.jsp" location="1850,3250" dimension="238,48" />
+  <StrutsActivity path="/backstage/FeatureTypeShow2.jsp" location="2150,3250" dimension="226,48" />
+  <StrutsActivity path="/backstage/UpdateMeasurementType2.jsp" location="2450,3250" dimension="262,48" />
+  <StrutsActivity path="/backstage/MeasurementTypeShow2.jsp" location="3050,3250" dimension="250,48" />
+  <StrutsActivity path="/backstage/SourceShow2.jsp" location="3350,3250" dimension="196,48" />
+  <StrutsActivity path="/backstage/UpdateSource2.jsp" location="3650,3250" dimension="208,48" />
+  <StrutsActivity path="/backstage/UpdateZoneType2.jsp" location="3950,3250" dimension="220,48" />
+  <StrutsActivity path="/backstage/ZoneTypeShow2.jsp" location="4250,3250" dimension="208,48" />
+  <StrutsActivity path="/backstage/SubjectTypeShow.jsp" location="4550,3250" dimension="220,48" />
+  <StrutsActivity path="/backstage/UpdateSubType.jsp" location="4850,3250" dimension="208,48" />
+  <StrutsActivity path="/front/commonsearchtheme.jsp" location="4850,3750" dimension="208,48" />
+  <StrutsActivity path="/front/framethememain.jsp" location="5150,3750" dimension="190,48" />
+  <StrutsActivity path="/front/search/Search_degree.jsp" location="2150,2250" dimension="226,48" />
+  <StrutsActivity path="/front/search/Search_matches.jsp" location="2450,2250" dimension="232,48" />
+  <StrutsActivity path="/front/themelistforsearch.jsp" location="5150,1450" dimension="214,48" />
+  <StrutsActivity path="/front/framethemetop.jsp" location="50,3850" dimension="184,48" />
+  <StrutsActivity path="/front/search/Search_inquiry.jsp" location="3350,2250" dimension="232,48" />
+  <StrutsActivity path="/front/goodlistforsearch.jsp" location="5150,1750" dimension="208,48" />
+  <StrutsActivity path="/front/framegoodmain.jsp" location="950,3850" dimension="184,48" />
+  <StrutsActivity path="/front/searchforgood.jsp" location="5150,1150" dimension="184,48" />
+  <StrutsActivity path="/front/search/Search_logic.jsp" location="1850,2250" dimension="220,48" />
+  <StrutsActivity path="/front/search/picture.jsp" location="4850,1350" dimension="190,48" />
+  <StrutsActivity path="/front/commonsearch.jsp" location="2150,3850" dimension="178,48" />
+  <StrutsActivity path="/front/flash/index.html" location="3650,2250" dimension="178,48" />
+  <StrutsActivity path="/front/search/compasssearch.jsp" location="5150,2050" dimension="226,48" />
+  <StrutsActivity path="/front/search/gaojisearch.jsp" location="5150,1350" dimension="214,48" />
+  <StrutsActivity path="/front/framegoodtop.jsp" location="3350,3850" dimension="178,48" />
+  <StrutsActivity path="/front/search/searchResults.jsp" location="950,2350" dimension="226,48" />
+  <StrutsActivity path="/front/search/Search_result.jsp" location="2750,2250" dimension="226,48" />
+  <StrutsActivity path="/front/search/Search_keywords.jsp" location="3050,2250" dimension="238,48" />
+  <StrutsActivity path="/front/search/gaojisearchtop.jsp" location="5150,1250" dimension="232,48" />
+  <StrutsActivity path="/front/ListGoodGeren.jsp" location="3350,3950" dimension="184,48" />
+  <StrutsActivity path="/front/AddGoodGeren.jsp" location="3650,3950" dimension="178,48" />
+  <StrutsActivity path="/front/UpGoodGeren.jsp" location="3950,3950" dimension="172,48" />
+  <StrutsActivity path="/front/UpThemeGeren.jsp" location="4250,3950" dimension="178,48" />
+  <StrutsActivity path="/front/ListAddGoodGeren.jsp" location="4550,3950" dimension="202,48" />
+  <StrutsActivity path="/front/ListAddThemeGeren.jsp" location="4850,3950" dimension="208,48" />
+  <StrutsActivity path="/front/ListZThemeGeren.jsp" location="5150,3950" dimension="196,48" />
+  <StrutsActivity path="/front/AddThemeGeren.jsp" location="5450,3950" dimension="184,48" />
+  <StrutsActivity path="/front/ListZGoodGeren.jsp" location="5750,3950" dimension="190,48" />
+  <StrutsActivity path="/front/ListSThemeGeren.jsp" location="6050,3950" dimension="196,48" />
+  <StrutsActivity path="/front/ListThemeGeren.jsp" location="50,4050" dimension="190,48" />
+  <StrutsActivity path="/front/ListPThemeGeren.jsp" location="350,4050" dimension="196,48" />
+  <StrutsActivity path="/front/ListShoucangGoodGeren.jsp" location="1850,3550" dimension="232,48" />
+  <StrutsActivity path="/front/ListShoucangThemeGeren.jsp" location="2150,3550" dimension="238,48" />
+  <StrutsActivity path="/Updatejingtai.jsp" location="5750,550" dimension="148,48" />
+  <StrutsActivity path="/Addyuanxiaojingtai.jsp" location="2150,2650" dimension="178,48" />
+  <StrutsActivity path="/Addjingtai.jsp" location="3950,2550" dimension="130,48" />
+  <StrutsActivity path="/Listjingtai.jsp" location="4550,2550" dimension="136,48" />
+  <StrutsActivity path="/niantongjitu.jsp" location="5150,2550" dimension="142,48" />
+  <StrutsActivity path="/dianjitongjitu.jsp" location="650,2650" dimension="154,48" />
+  <StrutsActivity path="/dianjiquyuzhuxingtu.jsp" location="5750,1050" dimension="184,48" />
+  <StrutsActivity path="/tongjitu.jsp" location="950,350" dimension="118,48" />
+  <StrutsActivity path="/yuetongjitu.jsp" location="4850,2550" dimension="136,48" />
+  <StrutsActivity path="/quyuzhuxingtu.jsp" location="5750,950" dimension="148,48" />
+  <StrutsActivity path="/dianjiyuetongjitu.jsp" location="950,2650" dimension="172,48" />
+  <StrutsActivity path="/dianjiniantongjitu.jsp" location="5750,1250" dimension="178,48" />
+  <StrutsActivity path="/chenggong.jsp" location="5750,2350" dimension="124,48" />
+  <StrutsActivity path="/Lmzhuti.jsp" location="2450,2450" dimension="112,48" />
+  <StrutsActivity path="/sellanmu.jsp" location="3950,2450" dimension="118,48" />
+  <StrutsActivity path="/Listdianji.jsp" location="5750,2550" dimension="130,48" />
+  <StrutsActivity path="/Listdenglu.jsp" location="4550,2450" dimension="130,48" />
+  <StrutsActivity path="/selzhuantilm.jsp" location="5450,350" dimension="142,48" />
+  <StrutsActivity path="/Listlanmu.jsp" location="5450,2150" dimension="124,48" />
+  <StrutsActivity path="/Addlanmu.jsp" location="5450,250" dimension="118,48" />
+  <StrutsActivity path="/selthemelm.jsp" location="3650,2450" dimension="130,48" />
+  <StrutsActivity path="/selzhutilm.jsp" location="5150,950" dimension="130,48" />
+  <StrutsActivity path="/selgoodlm.jsp" location="3350,2450" dimension="124,48" />
+  <StrutsActivity path="/upshouyelanmu.jsp" location="5450,2450" dimension="148,48" />
+  <StrutsActivity path="/listpinglun.jsp" location="5150,350" dimension="136,48" />
+  <StrutsActivity path="/Updatewenxiankuozhan.jsp" location="4250,850" dimension="190,48" />
+  <StrutsActivity path="/ListWenxiankuozhan.jsp" location="3950,1850" dimension="178,48" />
+  <StrutsActivity path="/Addwenxiankuozhan.jsp" location="3650,1050" dimension="172,48" />
+  <StrutsActivity path="/listpiczhengli.jsp" location="5750,450" dimension="154,48" />
+  <StrutsActivity path="/schoolstyle2.jsp" location="3950,950" dimension="142,48" />
+  <StrutsActivity path="/listtuijian.jsp" location="5750,350" dimension="136,48" />
+  <StrutsActivity path="/Updatewenxianleixing2.jsp" location="3650,250" dimension="196,48" />
+  <StrutsActivity path="/Listwenxianleixing2.jsp" location="3950,250" dimension="184,48" />
+  <StrutsActivity path="/Addwenxianleixing2.jsp" location="4250,250" dimension="178,48" />
+  <StrutsActivity path="/Updatethemewenxian2.jsp" location="3950,750" dimension="184,48" />
+  <StrutsActivity path="/Showwenxian2.jsp" location="3950,350" dimension="142,48" />
+  <StrutsActivity path="/Updatewenxian2.jsp" location="3650,350" dimension="154,48" />
+  <StrutsActivity path="/Addwenxian2.jsp" location="4250,450" dimension="136,48" />
+  <StrutsActivity path="/Listthemewenxian2.jsp" location="3950,450" dimension="172,48" />
+  <StrutsActivity path="/Addthemewenxian2.jsp" location="4250,350" dimension="166,48" />
+  <StrutsActivity path="/Showthemewenxian.jsp" location="350,1850" dimension="166,48" />
+  <StrutsActivity path="/Listwenxian2.jsp" location="3650,450" dimension="142,48" />
+  <StrutsActivity path="/Addziduan2.jsp" location="3350,550" dimension="130,48" />
+  <StrutsActivity path="/Updateziduan2.jsp" location="3650,550" dimension="148,48" />
+  <StrutsActivity path="/Listziduan2.jsp" location="3950,550" dimension="136,48" />
+  <StrutsActivity path="/Updatejiedian2.jsp" location="3350,750" dimension="154,48" />
+  <StrutsActivity path="/Addjiedianlist2.jsp" location="3950,650" dimension="160,48" />
+  <StrutsActivity path="/listleibie.jsp" location="3350,350" dimension="130,48" />
+  <StrutsActivity path="/listjishuguanxi2.jsp" location="3650,650" dimension="166,48" />
+  <StrutsActivity path="/Addbowuguanleibie.jsp" location="4850,350" dimension="172,48" />
+  <StrutsActivity path="/Updatebowuguanleibie.jsp" location="4850,450" dimension="190,48" />
+  <StrutsActivity path="/bowuguanleibie.jsp" location="4850,550" dimension="154,48" />
+  <StrutsActivity path="/Updatejiedian.jsp" location="1250,1550" dimension="148,48" />
+  <StrutsActivity path="/Addjiedian.jsp" location="2450,750" dimension="130,48" />
+  <StrutsActivity path="/UpdateZhanpinleibie.jsp" location="1850,750" dimension="184,48" />
+  <StrutsActivity path="/AddZhanpinleibie.jsp" location="2450,1450" dimension="166,48" />
+  <StrutsActivity path="/redianshezhi2.jsp" location="1850,850" dimension="148,48" />
+  <StrutsActivity path="/UpdateGonggao2.jsp" location="3050,850" dimension="154,48" />
+  <StrutsActivity path="/listgonggao2.jsp" location="3350,850" dimension="142,48" />
+  <StrutsActivity path="/AddGonggao2.jsp" location="3650,850" dimension="136,48" />
+  <StrutsActivity path="/UpdateZhuti.jsp" location="1850,1250" dimension="136,48" />
+  <StrutsActivity path="/AddZhuti.jsp" location="2150,1250" dimension="118,48" />
+  <StrutsActivity path="/ListZhutiShow.jsp" location="2750,950" dimension="148,48" />
+  <StrutsActivity path="/UpdateZhuanti.jsp" location="50,1350" dimension="148,48" />
+  <StrutsActivity path="/ListZhuantiShow.jsp" location="2450,250" dimension="160,48" />
+  <StrutsActivity path="/themelistforcheck.jsp" location="2750,250" dimension="172,48" />
+  <StrutsActivity path="/themelistforzhuanti.jsp" location="2750,1050" dimension="184,48" />
+  <StrutsActivity path="/AddZhuanti.jsp" location="1850,1350" dimension="130,48" />
+  <StrutsActivity path="/UpdateSchool2.jsp" location="3650,950" dimension="148,48" />
+  <StrutsActivity path="/ListSchoolShow2.jsp" location="3050,950" dimension="160,48" />
+  <StrutsActivity path="/AddSchool2.jsp" location="3350,950" dimension="130,48" />
+  <StrutsActivity path="/UpdateModules2.jsp" location="4250,950" dimension="154,48" />
+  <StrutsActivity path="/ListModulesShow2.jsp" location="3050,1050" dimension="166,48" />
+  <StrutsActivity path="/AddModules2.jsp" location="4250,550" dimension="136,48" />
+  <StrutsActivity path="/ShowPersonUser2.jsp" location="4250,1250" dimension="160,48" />
+  <StrutsActivity path="/index2.jsp" location="3650,1150" dimension="106,48" />
+  <StrutsActivity path="/UpdatePersonUser2.jsp" location="3950,1150" dimension="172,48" />
+  <StrutsActivity path="/UpdatePersonUserShenHe2.jsp" location="4250,1150" dimension="208,48" />
+  <StrutsActivity path="/reg2.jsp" location="3650,1250" dimension="94,48" />
+  <StrutsActivity path="/ListShowUser2.jsp" location="3950,1250" dimension="148,48" />
+  <StrutsActivity path="/login.jsp" location="750,210" dimension="100,48" />
+  <StrutsActivity path="/UpdateUser2.jsp" location="3650,1350" dimension="136,48" />
+  <StrutsActivity path="/goodlistforcheck2.jsp" location="3650,1450" dimension="172,48" />
+  <StrutsActivity path="/updateGood2.jsp" location="3950,1450" dimension="136,48" />
+  <StrutsActivity path="/ListGoodShow2.jsp" location="3650,1550" dimension="148,48" />
+  <StrutsActivity path="/ListGoodShowAdmin.jsp" location="4550,1050" dimension="172,48" />
+  <StrutsActivity path="/Listgoodshoucang.jsp" location="1850,1950" dimension="166,48" />
+  <StrutsActivity path="/AddGood2.jsp" location="4250,1450" dimension="118,48" />
+  <StrutsActivity path="/GoodShow2.jsp" location="4250,1350" dimension="124,48" />
+  <StrutsActivity path="/UpdateTheme2.jsp" location="4250,1550" dimension="142,48" />
+  <StrutsActivity path="/Addcankao.jsp" location="2450,1350" dimension="124,48" />
+  <StrutsActivity path="/themelistforcheck2.jsp" location="3950,1750" dimension="178,48" />
+  <StrutsActivity path="/listptheme2.jsp" location="3950,1550" dimension="136,48" />
+  <StrutsActivity path="/AddTheme2.jsp" location="3650,1750" dimension="124,48" />
+  <StrutsActivity path="/Listshoucangtheme.jsp" location="4550,750" dimension="172,48" />
+  <StrutsActivity path="/ThemeListShow2.jsp" location="3950,1650" dimension="154,48" />
+  <StrutsActivity path="/goodlistfortheme2.jsp" location="1550,1850" dimension="172,48" />
+  <StrutsActivity path="/listztheme2.jsp" location="3350,1050" dimension="136,48" />
+  <StrutsActivity path="/ThemeShow2.jsp" location="3650,1650" dimension="130,48" />
+  <StrutsActivity path="/liststheme2.jsp" location="1250,1850" dimension="136,48" />
+  <StrutsActivity path="/ThemeListAdmin.jsp" location="4550,1250" dimension="154,48" />
+  <StrutsActivity path="/MediaTypeShow2.jsp" location="1850,1850" dimension="154,48" />
+  <StrutsActivity path="/UpdateMediaType2.jsp" location="2150,1850" dimension="166,48" />
+  <StrutsActivity path="/MediaFormatShow2.jsp" location="2750,1850" dimension="166,48" />
+  <StrutsActivity path="/UpdateMediaFormat2.jsp" location="3050,1850" dimension="178,48" />
+  <StrutsActivity path="/AddMediaFormat2.jsp" location="2450,1850" dimension="160,48" />
+  <StrutsActivity path="/tree/console-edit.jsp" location="765,1170" dimension="172,48" />
+  <StrutsActivity path="/tree/error.jsp" location="795,1230" dimension="130,48" />
+  <StrutsActivity path="/tree/console-json.jsp" location="780,1320" dimension="172,48" />
+  <StrutsActivity path="/tree/success.jsp" location="945,1095" dimension="142,48" />
+  <StrutsActivity path="/UpdateDuringFormat2.jsp" location="950,1950" dimension="184,48" />
+  <StrutsActivity path="/DuringFormatShow2.jsp" location="350,1950" dimension="172,48" />
+  <StrutsActivity path="/UpdateDuringType2.jsp" location="1250,1950" dimension="172,48" />
+  <StrutsActivity path="/DuringTypeShow2.jsp" location="1550,1950" dimension="160,48" />
+  <StrutsActivity path="/UpdateFeatureType2.jsp" location="2450,1950" dimension="178,48" />
+  <StrutsActivity path="/FeatureTypeShow2.jsp" location="2150,1950" dimension="166,48" />
+  <StrutsActivity path="/UpdateMeasurementType2.jsp" location="2750,1950" dimension="202,48" />
+  <StrutsActivity path="/MeasurementTypeShow2.jsp" location="3050,1950" dimension="190,48" />
+  <StrutsActivity path="/SourceShow2.jsp" location="3650,1950" dimension="136,48" />
+  <StrutsActivity path="/UpdateSource2.jsp" location="3350,1950" dimension="148,48" />
+  <StrutsActivity path="/UpdateZoneType2.jsp" location="4250,1950" dimension="160,48" />
+  <StrutsActivity path="/ZoneTypeShow2.jsp" location="3950,1950" dimension="148,48" />
+  <StrutsActivity path="/SubjectTypeShow.jsp" location="1250,650" dimension="160,48" />
+  <StrutsActivity path="/UpdateSubType.jsp" location="1550,650" dimension="148,48" />
+  <StrutsActivity path="/AddUserRoles2.jsp" location="950,2050" dimension="148,48" />
+  <StrutsActivity path="/UpdateRoles2.jsp" location="1550,2050" dimension="142,48" />
+  <StrutsActivity path="/ListRolesShow2.jsp" location="1250,2050" dimension="154,48" />
+  <StrutsActivity path="/ListFunctionShow2.jsp" location="2750,2050" dimension="172,48" />
+  <StrutsActivity path="/AddRolesFunction2.jsp" location="2150,2050" dimension="172,48" />
+  <StrutsActivity path="/ListFunctionByRolesShow2.jsp" location="3050,2050" dimension="214,48" />
+  <StrutsActivity path="/UpdateFunction2.jsp" location="2450,2050" dimension="160,48" />
+  <StrutsActivity path="/listxgrizhi.jsp" location="5150,1550" dimension="136,48" />
+  <StrutsActivity path="/listdlrizhi.jsp" location="350,2350" dimension="136,48" />
+  <StrutsActivity path="/listtjrizhi.jsp" location="5150,1650" dimension="136,48" />
+  <StrutsActivity path="/showxinxi.jsp" location="350,2450" dimension="124,48" />
+  <StrutsActivity path="/listyidu.jsp" location="3350,2350" dimension="118,48" />
+  <StrutsActivity path="/Addhuifuxinxi.jsp" location="1250,2450" dimension="148,48" />
+  <StrutsActivity path="/listyifasong.jsp" location="3050,2350" dimension="142,48" />
+  <StrutsActivity path="/Addfasong.jsp" location="4550,2350" dimension="124,48" />
+  <StrutsActivity path="/listweidu.jsp" location="3950,2350" dimension="124,48" />
+  <StrutsActivity path="/Addxiaoxi.jsp" location="2450,2350" dimension="124,48" />
+  <StrutsActivity path="/showweiduxinxi.jsp" location="950,2450" dimension="154,48" />
+  <StrutsActivity path="/Addtjman.jsp" location="4850,2350" dimension="118,48" />
+  <StrutsActivity path="/ListYijian.jsp" location="6050,2450" dimension="130,48" />
+  <StrutsActivity path="/front/shengcheng.jsp" location="5750,2450" dimension="166,48" />
+  <StrutsActivity path="/front/yuanxiaoshanghaiIndex.jsp" location="5450,450" dimension="232,48" />
+  <StrutsActivity path="/pinglun.jsp" location="4850,250" dimension="112,48" />
+  <StrutsActivity path="/front/search/search.jsp" location="4850,1650" dimension="184,48" />
+  <StrutsActivity path="/front/moregoodlist2.jsp" location="4850,1450" dimension="184,48" />
+  <StrutsActivity path="/listjishubiao.jsp" location="350,1550" dimension="148,48" />
+  <StrutsActivity path="/listleibie2.jsp" location="4250,650" dimension="136,48" />
+  <StrutsActivity path="/AddGood.jsp" location="350,750" dimension="112,48" />
+  <StrutsActivity path="/AddModules.jsp" location="1850,1150" dimension="130,48" />
+  <StrutsActivity path="/listztheme2.jsp2" location="950,1850" dimension="142,48" />
+  <StrutsActivity path="/Updatewenxianleixing.jsp" location="3050,1650" dimension="190,48" />
+  <StrutsActivity path="/Listwenxianleixing.jsp" location="1550,1650" dimension="178,48" />
+  <StrutsActivity path="/Addwenxianleixing.jsp" location="2750,1650" dimension="172,48" />
+  <StrutsActivity path="/Showwenxian.jsp" location="3350,450" dimension="136,48" />
+  <StrutsActivity path="/Updatewenxian.jsp" location="350,1750" dimension="148,48" />
+  <StrutsActivity path="/Addwenxian.jsp" location="1550,1750" dimension="130,48" />
+  <StrutsActivity path="/Listwenxian.jsp" location="950,1750" dimension="136,48" />
+  <StrutsActivity path="/Addziduan.jsp" location="350,1650" dimension="124,48" />
+  <StrutsActivity path="/Updateziduan.jsp" location="3350,250" dimension="142,48" />
+  <StrutsActivity path="/Listziduan.jsp" location="3350,1550" dimension="130,48" />
+  <StrutsActivity path="/Addjiedianlist.jsp" location="2750,750" dimension="154,48" />
+  <StrutsActivity path="/listjishuguanxi.jsp" location="2450,1550" dimension="160,48" />
+  <StrutsActivity path="/redianshezhi.jsp" location="3050,250" dimension="142,48" />
+  <StrutsActivity path="/UpdateGonggao.jsp" location="3050,1350" dimension="148,48" />
+  <StrutsActivity path="/listgonggao.jsp" location="2750,1350" dimension="136,48" />
+  <StrutsActivity path="/AddGonggao.jsp" location="1250,250" dimension="130,48" />
+  <StrutsActivity path="/UpdateSchool.jsp" location="2450,1050" dimension="142,48" />
+  <StrutsActivity path="/ListSchoolShow.jsp" location="2450,950" dimension="154,48" />
+  <StrutsActivity path="/schoolstyle.jsp" location="2750,350" dimension="136,48" />
+  <StrutsActivity path="/AddSchool.jsp" location="2450,850" dimension="124,48" />
+  <StrutsActivity path="/UpdateModules.jsp" location="1250,1150" dimension="148,48" />
+  <StrutsActivity path="/ListModulesShow.jsp" location="2450,1150" dimension="160,48" />
+  <StrutsActivity path="/ShowPersonUser.jsp" location="2750,450" dimension="154,48" />
+  <StrutsActivity path="/index.jsp" location="750,270" dimension="100,48" />
+  <StrutsActivity path="/UpdatePersonUser.jsp" location="750,150" dimension="166,48" />
+  <StrutsActivity path="/UpdatePersonUserShenHe.jsp" location="3050,750" dimension="202,48" />
+  <StrutsActivity path="/reg.jsp" location="3350,650" dimension="88,48" />
+  <StrutsActivity path="/ListShowUser.jsp" location="750,330" dimension="142,48" />
+  <StrutsActivity path="/UpdateUser.jsp" location="555,240" dimension="130,48" />
+  <StrutsActivity path="/goodlistforcheck.jsp" location="2450,450" dimension="166,48" />
+  <StrutsActivity path="/updateGood.jsp" location="1965,450" dimension="130,48" />
+  <StrutsActivity path="/ListGoodShow.jsp" location="1980,390" dimension="142,48" />
+  <StrutsActivity path="/GoodShow.jsp" location="350,350" dimension="118,48" />
+  <StrutsActivity path="/UpdateTheme.jsp" location="630,570" dimension="136,48" />
+  <StrutsActivity path="/AddTheme.jsp" location="1125,360" dimension="118,48" />
+  <StrutsActivity path="/ThemeListShow.jsp" location="765,630" dimension="148,48" />
+  <StrutsActivity path="/listztheme.jsp" location="2750,850" dimension="130,48" />
+  <StrutsActivity path="/goodlistfortheme.jsp" location="1850,550" dimension="166,48" />
+  <StrutsActivity path="/ThemeShow.jsp" location="630,495" dimension="124,48" />
+  <StrutsActivity path="/liststheme.jsp" location="2750,1250" dimension="130,48" />
+  <StrutsActivity path="/listptheme.jsp" location="1850,650" dimension="130,48" />
+  <StrutsActivity path="/MediaTypeShow.jsp" location="615,930" dimension="148,48" />
+  <StrutsActivity path="/UpdateMediaType.jsp" location="585,990" dimension="160,48" />
+  <StrutsActivity path="/MediaFormatShow.jsp" location="930,870" dimension="160,48" />
+  <StrutsActivity path="/UpdateMediaFormat.jsp" location="675,780" dimension="172,48" />
+  <StrutsActivity path="/AddMediaFormat.jsp" location="525,705" dimension="154,48" />
+  <StrutsActivity path="/UpdateDuringFormat.jsp" location="950,750" dimension="178,48" />
+  <StrutsActivity path="/DuringFormatShow.jsp" location="720,1470" dimension="166,48" />
+  <StrutsActivity path="/UpdateDuringType.jsp" location="600,1695" dimension="166,48" />
+  <StrutsActivity path="/DuringTypeShow.jsp" location="600,1755" dimension="154,48" />
+  <StrutsActivity path="/UpdateFeatureType.jsp" location="1250,750" dimension="172,48" />
+  <StrutsActivity path="/FeatureTypeShow.jsp" location="630,2835" dimension="160,48" />
+  <StrutsActivity path="/UpdateMeasurementType.jsp" location="615,2400" dimension="196,48" />
+  <StrutsActivity path="/MeasurementTypeShow.jsp" location="600,2325" dimension="184,48" />
+  <StrutsActivity path="/SourceShow.jsp" location="585,1830" dimension="130,48" />
+  <StrutsActivity path="/UpdateSource.jsp" location="600,1890" dimension="142,48" />
+  <StrutsActivity path="/UpdateZoneType.jsp" location="525,2205" dimension="154,48" />
+  <StrutsActivity path="/ZoneTypeShow.jsp" location="615,2145" dimension="142,48" />
+  <StrutsActivity path="/ListRolesByUserShow.jsp" location="645,3240" dimension="184,48" />
+  <StrutsActivity path="/AddUserRoles.jsp" location="1850,950" dimension="142,48" />
+  <StrutsActivity path="/UpdateRoles.jsp" location="1250,850" dimension="136,48" />
+  <StrutsActivity path="/ListRolesShow.jsp" location="360,3225" dimension="148,48" />
+  <StrutsActivity path="/ListFunctionShow.jsp" location="1550,950" dimension="166,48" />
+  <StrutsActivity path="/AddRolesFunction.jsp" location="2150,750" dimension="166,48" />
+  <StrutsActivity path="/ListFunctionByRolesShow.jsp" location="2150,850" dimension="208,48" />
+  <StrutsActivity path="/UpdateFunction.jsp" location="480,3480" dimension="154,48" />
+  <StrutsActivity path="/listzhanpinleibie.jsp" location="1550,750" dimension="172,48" />
+  <StrutsActivity path="/front/zhanxiangliulan_new.jsp" location="350,550" dimension="220,48" />
+  <StrutsActivity path="/front/zhanpinmore_new.jsp" location="2150,550" dimension="196,48" />
+  <StrutsActivity path="/front/themelist_new.jsp" location="2450,550" dimension="184,48" />
+  <StrutsActivity path="/front/yuanxiaofenguanliebiao_new.jsp" location="2750,550" dimension="262,48" />
+  <StrutsActivity path="/front/zhanpinliulanliebiao_new.jsp" location="2750,650" dimension="250,48" />
+  <StrutsActivity path="/front/shouye.jsp" location="3050,450" dimension="142,48" />
+  <StrutsActivity path="common/success.jsp" location="2150,650" dimension="148,48" />
+  <StrutsActivity path="/PersonUserShow.jsp" location="950,250" dimension="154,48" />
+  <StrutsActivity path="/job_select.jsp" location="2150,950" dimension="130,48" />
+  <StrutsActivity path="/AddDuringFormat.jsp" location="915,1560" dimension="160,48" />
+  <StrutsActivity path="/AddFeatureType.jsp" location="615,2910" dimension="154,48" />
+  <StrutsActivity path="AddTheme.jsp" location="1125,450" dimension="112,48" />
+  <StrutsActivity path="/user.jsp" location="1200,540" dimension="94,48" />
+  <StrutsActivity path="/.jsp" location="1550,850" dimension="70,48" />
+  <StrutsActivity path="/front/themehow.jsp" location="1550,1050" dimension="154,48" />
+  <StrutsActivity path="/ListmodulesShow.jsp" location="1550,1150" dimension="160,48" />
+  <StrutsActivity path="/ListzhutiShow.jsp" location="2450,1250" dimension="148,48" />
+  <StrutsActivity path="/ListzhuantiShow.jsp" location="350,1350" dimension="160,48" />
+  <StrutsActivity path="/addCankaoziliao.jsp" location="2150,1350" dimension="160,48" />
+  <StrutsActivity path="/front/g.jsp" location="350,1450" dimension="112,48" />
+  <StrutsActivity path="/Updatecanshu.jsp" location="1850,1450" dimension="142,48" />
+  <StrutsActivity path="/Updatethemewenxian.jsp" location="1850,1750" dimension="178,48" />
+  <StrutsActivity path="/Listthemewenxian.jsp" location="2750,1750" dimension="166,48" />
+  <StrutsActivity path="/Addthemewenxian.jsp" location="3050,1750" dimension="160,48" />
+  <StrutsActivity path="/front/Mygeren.jsp" location="4250,1650" dimension="148,48" />
+  <StrutsActivity path="/UpdateWenxiankuozhan.jsp" location="3350,1850" dimension="190,48" />
+  <StrutsActivity path="/AddWenxiankuozhan.jsp" location="3650,1850" dimension="172,48" />
+  <StrutsActivity path="/Listwenxiankuozhan.jsp" location="4250,1850" dimension="178,48" />
+  <StrutsActivity path="/common/Listshoucangtheme.jsp" location="4550,1550" dimension="214,48" />
+  <StrutsActivity path="/front/yuanxiaoright.jsp" location="4550,1850" dimension="184,48" />
+  <StrutsActivity path="front/search/search.jsp" location="4550,2250" dimension="178,48" />
+  <StrutsActivity path="../front/search/search.jsp" location="4850,2250" dimension="196,48" />
+  <StrutsActivity path="/front/compasssearch.jsp" location="5150,1950" dimension="184,48" />
+  <StrutsActivity path="/listdl.jsp" location="350,2150" dimension="106,48" />
+  <StrutsActivity path="pinglun.jsp" location="350,2250" dimension="106,48" />
+  <StrutsActivity path="listpinglun.jsp" location="1250,2350" dimension="130,48" />
+  <StrutsActivity path="/listyifasong" location="2750,2350" dimension="118,48" />
+  <StrutsActivity path="addfasong.jsp" location="3650,2350" dimension="118,48" />
+  <StrutsActivity path="/addfasong.jsp" location="4250,2350" dimension="124,48" />
+  <StrutsActivity path="front/tesefuwu.jsp" location="5450,1850" dimension="148,48" />
+  <StrutsActivity path="/Addgood.jsp" location="2750,2450" dimension="112,48" />
+  <StrutsActivity path="/Addtheme.jsp" location="3050,2450" dimension="118,48" />
+  <StrutsActivity path="/addtheme.jsp" location="4250,2450" dimension="118,48" />
+  <StrutsActivity path="/addtheme" location="4850,2450" dimension="94,48" />
+  <StrutsActivity path="/" location="5150,2450" dimension="46,48" />
+  <StrutsActivity path="/front/shengcheng.html" location="2750,2550" dimension="172,48" />
+  <StrutsActivity path="/addjingtai.jsp" location="3350,2550" dimension="130,48" />
+  <StrutsActivity path="/toaddjingtai.jsp" location="3650,2550" dimension="142,48" />
+  <StrutsActivity path="/backstage/Showreply.jsp" location="5450,2650" dimension="184,48" />
+  <StrutsActivity path="/backstage/treebycai/Addsondepartment.jsp" location="2150,2850" dimension="286,48" />
+  <StrutsActivity path="/backstage/role/Updateuser_permit.jsp" location="3950,2850" dimension="262,48" />
+  <StrutsActivity path="/backstage/role/Showrole_permit.jsp" location="5150,2850" dimension="250,48" />
+  <StrutsActivity path="/backstage/role/Srole_permit.jsp" location="5450,2850" dimension="232,48" />
+  <StrutsActivity path="/front/bbs/manage/Updatemoderator.jsp" location="6650,2850" dimension="262,48" />
+  <StrutsActivity path="/front/bbs/interactive/ListSend.jsp" location="4550,2950" dimension="250,48" />
+  <StrutsActivity path="/backstage/extlogin.jsp" location="6350,2950" dimension="178,48" />
+  <StrutsActivity path="/extbackstage/extlogin.jsp" location="6650,2950" dimension="196,48" />
+  <StrutsActivity path="/extbackstage/login.jsp" location="6950,2950" dimension="178,48" />
+  <StrutsActivity path="//extlogin.jsp" location="7550,2950" dimension="124,48" />
+  <StrutsActivity path="/backstage/role/Updaterole.jsp" location="50,3050" dimension="220,48" />
+  <StrutsActivity path="/Updatefront_module.jsp" location="7250,3150" dimension="178,48" />
+  <StrutsActivity path="/backstage/front/module/Updatefront_module.jsp" location="1550,3050" dimension="316,48" />
+  <StrutsActivity path="/backstage/front/article/Updatearticle_column.jsp" location="650,3350" dimension="334,48" />
+  <StrutsActivity path="/backstage/front/article/Showarticle_column.jsp" location="1250,3350" dimension="322,48" />
+  <StrutsActivity path="/backstage/friendlink/Updatefriendlink.jsp" location="1850,3350" dimension="292,48" />
+  <StrutsActivity path="/backstage/friendlink/Showfriendlink.jsp" location="2450,3350" dimension="280,48" />
+  <StrutsActivity path="/backstage/product/Updateout_product.jsp" location="4550,3350" dimension="280,48" />
+  <StrutsActivity path="/backstage/product/toout_product.jsp" location="3050,3350" dimension="256,48" />
+  <StrutsActivity path="/backstage/product/doout_product.jsp" location="3650,3350" dimension="256,48" />
+  <StrutsActivity path="/backstage/product/out_productdo.jsp" location="6050,3350" dimension="256,48" />
+  <StrutsActivity path="/backstage/front/article_column/Add2article_column.jsp" location="7250,3350" dimension="364,48" />
+  <StrutsActivity path="/front/web/leftatricle_column.jsp" location="6650,3350" dimension="238,48" />
+  <StrutsActivity path="/front/web/museum/Showexhibition.jsp" location="3950,3550" dimension="256,48" />
+  <StrutsActivity path="/front/web/reg.jsp" location="5750,3550" dimension="148,48" />
+  <StrutsActivity path="/front/web/museum/login.jsp" location="6050,3550" dimension="202,48" />
+  <StrutsActivity path="front/web/museum/login.jsp" location="6350,3550" dimension="196,48" />
+  <StrutsActivity path="../front/web/login.jsp" location="6950,3550" dimension="172,48" />
+  <StrutsActivity path="//front/web/login.jsp" location="7250,3550" dimension="166,48" />
+  <StrutsActivity path="/jgw/words/Showjgw_words.jsp" location="7850,3550" dimension="208,48" />
+  <StrutsActivity path="/jgw/words/Updatejgw_words.jsp" location="8150,3550" dimension="220,48" />
+  <StrutsActivity path="/backstage/jgw/words/Showjgw_words.jsp" location="50,3650" dimension="268,48" />
+  <StrutsActivity path="/backstage/jgw/words/Updatejgw_words.jsp" location="650,3650" dimension="280,48" />
+  <StrutsActivity path="/front/web/index2.jsp" location="2450,3650" dimension="166,48" />
+  <StrutsActivity path="/backstage/test/Showtest.jsp" location="3650,3650" dimension="208,48" />
+  <StrutsActivity path="/backstage/test/Updatetest.jsp" location="3950,3650" dimension="220,48" />
+  <StrutsActivity path="/backstage/test/Updatetest5.jsp" location="4250,3650" dimension="226,48" />
+  <StrutsActivity path="/backstage/test/Showtest5.jsp" location="4550,3650" dimension="214,48" />
+  <StrutsActivity path="/backstage/test/Updatetestcaicai.jsp" location="4850,3650" dimension="256,48" />
+  <StrutsActivity path="/backstage/test/Showtestcaicai.jsp" location="5450,3650" dimension="244,48" />
+  <StrutsActivity path="/backstage/museum/exhibition/Showexhibition.jspshow" location="8450,3150" dimension="346,48" />
+  <StrutsActivity path="/backstage/album/Showalbum.jsp" location="8150,5950" dimension="230,53" />
+  <StrutsActivity path="/backstage/album/Updatealbum.jsp" location="8450,5950" dimension="242,53" />
+  <StrutsActivity path="/progress.do" location="7850,3650" dimension="220,84" />
+  <StrutsActivity path="/backstage/progress/Updateprogress.jsp" location="50,3750" dimension="268,48" />
+  <StrutsActivity path="/backstage/progress/Showprogress.jsp" location="650,3750" dimension="256,48" />
+  <StrutsActivity path="/worktask.do" />
+  <StrutsActivity path="/backstage/progress/Updateworktask.jsp" />
+  <StrutsActivity path="/backstage/progress/Showworktask.jsp" />
+  <StrutsTransition id="/treebycai.do,updatenode,/backstage/treebycai/UpdateNode.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2976,91" />
+      <AbsolutePoint location="3033,91" />
+      <AbsolutePoint location="3033,1419" />
+      <AbsolutePoint location="4785,1419" />
+      <AbsolutePoint location="4785,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_rank.do,listrank,/front/bbs/manage/Listrank.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7250,3001" />
+      <AbsolutePoint location="6929,3001" />
+      <AbsolutePoint location="6929,531" />
+      <AbsolutePoint location="7360,531" />
+      <AbsolutePoint location="7360,550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/picture_group.do,showpicture_group,/backstage/picturegroup/Showpicture_group.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8605,3634" />
+      <AbsolutePoint location="8605,4653" />
+      <AbsolutePoint location="6505,4653" />
+      <AbsolutePoint location="6505,3698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article_column.do,add2article_column,/backstage/front/article_column/Addarticle_column2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="541,1234" />
+      <AbsolutePoint location="541,2141" />
+      <AbsolutePoint location="6015,2141" />
+      <AbsolutePoint location="6015,3119" />
+      <AbsolutePoint location="8032,3119" />
+      <AbsolutePoint location="8032,3350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,reply,/front/bbs/interactive/Addreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2185,334" />
+      <AbsolutePoint location="2185,465" />
+      <AbsolutePoint location="2115,465" />
+      <AbsolutePoint location="2115,2913" />
+      <AbsolutePoint location="5575,2913" />
+      <AbsolutePoint location="5575,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,updateuser_role,/backstage/user/Updateuser_role.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="127,328" />
+      <AbsolutePoint location="127,423" />
+      <AbsolutePoint location="1521,423" />
+      <AbsolutePoint location="1521,1265" />
+      <AbsolutePoint location="1821,1265" />
+      <AbsolutePoint location="1821,2774" />
+      <AbsolutePoint location="1800,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/art_goods.do,showart_goods,/backstage/museum/art_goods/Showart_goods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8263,1034" />
+      <AbsolutePoint location="8263,1069" />
+      <AbsolutePoint location="8781,1069" />
+      <AbsolutePoint location="8781,1913" />
+      <AbsolutePoint location="7405,1913" />
+      <AbsolutePoint location="7405,1798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article.do,updatearticlerili,/backstage/front/article/Updatearticlerili.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2257,1134" />
+      <AbsolutePoint location="2257,1141" />
+      <AbsolutePoint location="8725,1141" />
+      <AbsolutePoint location="8725,498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,showcompany,/backstage/company/Showcompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,2891" />
+      <AbsolutePoint location="907,2891" />
+      <AbsolutePoint location="907,2035" />
+      <AbsolutePoint location="6289,2035" />
+      <AbsolutePoint location="6289,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/publications.do,updatepublications,/backstage/museum/publications/Updatepublications.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8150,2819" />
+      <AbsolutePoint location="3343,2819" />
+      <AbsolutePoint location="3343,3519" />
+      <AbsolutePoint location="1129,3519" />
+      <AbsolutePoint location="1129,3550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,listunread,/backstage/interactive/Listunread.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="155,2734" />
+      <AbsolutePoint location="155,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_post.do,addpost,/front/bbs/Addpost.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1342,2950" />
+      <AbsolutePoint location="1342,2913" />
+      <AbsolutePoint location="1636,2913" />
+      <AbsolutePoint location="1636,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/videos.do,showvideos,/backstage/videos/Showvideos.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3558,3718" />
+      <AbsolutePoint location="7066,3718" />
+      <AbsolutePoint location="7066,3698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,index,/backstage/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="35,240" />
+      <AbsolutePoint location="35,-85" />
+      <AbsolutePoint location="1330,-85" />
+      <AbsolutePoint location="1330,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_forum.do,updatesecondforum,/front/bbs/manage/Updatesecondforum.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1755,434" />
+      <AbsolutePoint location="1755,1213" />
+      <AbsolutePoint location="7515,1213" />
+      <AbsolutePoint location="7515,498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,publications,/front/web/museum/ListPublications.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5450,3453" />
+      <AbsolutePoint location="5421,3453" />
+      <AbsolutePoint location="5421,3113" />
+      <AbsolutePoint location="3009,3113" />
+      <AbsolutePoint location="3009,3574" />
+      <AbsolutePoint location="2718,3574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/base_type.do,updatearticletype,/backstage/front/article/Updatearticle_type.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7250,1119" />
+      <AbsolutePoint location="3853,1119" />
+      <AbsolutePoint location="3853,2341" />
+      <AbsolutePoint location="818,2341" />
+      <AbsolutePoint location="818,3050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,updateuserpwdbbs,/front/bbs/Updateuserpwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="15,314" />
+      <AbsolutePoint location="-30,314" />
+      <AbsolutePoint location="-30,5013" />
+      <AbsolutePoint location="3321,5013" />
+      <AbsolutePoint location="3321,2974" />
+      <AbsolutePoint location="3350,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pictures.do,updatepictures,/backstage/pictures/Updatepictures.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8450,183" />
+      <AbsolutePoint location="8427,183" />
+      <AbsolutePoint location="8427,674" />
+      <AbsolutePoint location="8450,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article_column.do,updatearticle_column,/backstage/front/article_column/Updatearticle_column.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="606,1192" />
+      <AbsolutePoint location="752,1192" />
+      <AbsolutePoint location="752,1005" />
+      <AbsolutePoint location="3238,1005" />
+      <AbsolutePoint location="3238,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/department.do,addsondepartment,/backstage/department/Addsondepartment.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5150,83" />
+      <AbsolutePoint location="5127,83" />
+      <AbsolutePoint location="5127,1613" />
+      <AbsolutePoint location="2997,1613" />
+      <AbsolutePoint location="2997,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,addcompany,/backstage/company/Addcompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1164,2869" />
+      <AbsolutePoint location="1250,2869" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_post.do,updatevote,/front/bbs/Updatevote.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1364,3034" />
+      <AbsolutePoint location="1364,3113" />
+      <AbsolutePoint location="2403,3113" />
+      <AbsolutePoint location="2403,4293" />
+      <AbsolutePoint location="8853,4293" />
+      <AbsolutePoint location="8853,720" />
+      <AbsolutePoint location="7660,720" />
+      <AbsolutePoint location="7660,750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assets.do,updateassets,/backstage/assets/Updateassets.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1591" />
+      <AbsolutePoint location="2083,1591" />
+      <AbsolutePoint location="2083,1841" />
+      <AbsolutePoint location="7972,1841" />
+      <AbsolutePoint location="7972,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,showinteractive,/front/bbs/interactive/Showinteractive.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2305,334" />
+      <AbsolutePoint location="2305,413" />
+      <AbsolutePoint location="4827,413" />
+      <AbsolutePoint location="4827,2974" />
+      <AbsolutePoint location="4850,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,showunread,/backstage/interactive/Showunread.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2714" />
+      <AbsolutePoint location="-90,2714" />
+      <AbsolutePoint location="-90,5493" />
+      <AbsolutePoint location="6327,5493" />
+      <AbsolutePoint location="6327,2774" />
+      <AbsolutePoint location="6312,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,index,/front/web/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5150,3313" />
+      <AbsolutePoint location="2115,3313" />
+      <AbsolutePoint location="2115,3074" />
+      <AbsolutePoint location="2150,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_post.do,addvote,/front/bbs/Addvote.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1434,3013" />
+      <AbsolutePoint location="2236,3013" />
+      <AbsolutePoint location="2236,2998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_post.do,showvote,/front/bbs/Showvote.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1342,3034" />
+      <AbsolutePoint location="1342,3141" />
+      <AbsolutePoint location="3943,3141" />
+      <AbsolutePoint location="3943,535" />
+      <AbsolutePoint location="6139,535" />
+      <AbsolutePoint location="6139,498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/createcode.do,createsuccess,/backstage/createcode/Createsuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7250,913" />
+      <AbsolutePoint location="7247,913" />
+      <AbsolutePoint location="7247,2774" />
+      <AbsolutePoint location="7550,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,search,/front/web/Search.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5291,3334" />
+      <AbsolutePoint location="5291,3450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/exhibition.do,showexhibition,/backstage/museum/exhibition/Showexhibition.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8150,791" />
+      <AbsolutePoint location="8131,791" />
+      <AbsolutePoint location="8131,2319" />
+      <AbsolutePoint location="6029,2319" />
+      <AbsolutePoint location="6029,3450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/department.do,listdepartment,/backstage/department/Listdepartment.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5382,105" />
+      <AbsolutePoint location="6490,105" />
+      <AbsolutePoint location="6490,250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_params.do,updateparam,/front/bbs/manage/Updateparams.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2682,2983" />
+      <AbsolutePoint location="2750,2983" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roles.do,updaterolepermit,/backstage/role/Updaterole_permit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="89,3255" />
+      <AbsolutePoint location="89,3205" />
+      <AbsolutePoint location="2719,3205" />
+      <AbsolutePoint location="2719,2774" />
+      <AbsolutePoint location="2412,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,showsend,/front/bbs/interactive/Showsend.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,313" />
+      <AbsolutePoint location="1821,313" />
+      <AbsolutePoint location="1821,813" />
+      <AbsolutePoint location="7375,813" />
+      <AbsolutePoint location="7375,798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/createcode.do,createcode,/backstage/createcode/Addcreatecode.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7250,874" />
+      <AbsolutePoint location="6924,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_forum.do,updateforum,/front/bbs/manage/Updatefirstforum.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1669,434" />
+      <AbsolutePoint location="1669,441" />
+      <AbsolutePoint location="6939,441" />
+      <AbsolutePoint location="6939,2874" />
+      <AbsolutePoint location="7250,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,showweibo,/front/web/Showweibo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5388,3313" />
+      <AbsolutePoint location="8823,3313" />
+      <AbsolutePoint location="8823,274" />
+      <AbsolutePoint location="8334,274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,updateuser,/front/web/Updateuser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5632,3534" />
+      <AbsolutePoint location="5632,3613" />
+      <AbsolutePoint location="7645,3613" />
+      <AbsolutePoint location="7645,3598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article.do,updatearticle,/backstage/front/article/Updatearticle.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2364,1105" />
+      <AbsolutePoint location="7219,1105" />
+      <AbsolutePoint location="7219,1274" />
+      <AbsolutePoint location="7250,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,searchpost,/front/bbs/Searchpost.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2163,334" />
+      <AbsolutePoint location="2163,365" />
+      <AbsolutePoint location="1791,365" />
+      <AbsolutePoint location="1791,720" />
+      <AbsolutePoint location="724,720" />
+      <AbsolutePoint location="724,663" />
+      <AbsolutePoint location="240,663" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assets.do,useassets,/backstage/assets/Useassets.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2358,1605" />
+      <AbsolutePoint location="2677,1605" />
+      <AbsolutePoint location="2677,2171" />
+      <AbsolutePoint location="2701,2171" />
+      <AbsolutePoint location="2701,3074" />
+      <AbsolutePoint location="2750,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,send,/front/bbs/interactive/Addsend.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2245,250" />
+      <AbsolutePoint location="2245,225" />
+      <AbsolutePoint location="3633,225" />
+      <AbsolutePoint location="3633,2974" />
+      <AbsolutePoint location="3650,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,showsend,/backstage/interactive/Showsend.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="133,2734" />
+      <AbsolutePoint location="133,2765" />
+      <AbsolutePoint location="35,2765" />
+      <AbsolutePoint location="35,1533" />
+      <AbsolutePoint location="1149,1533" />
+      <AbsolutePoint location="1149,963" />
+      <AbsolutePoint location="1250,963" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/progress.do,updateprogress,/backstage/progress/Updateprogress.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7990,3734" />
+      <AbsolutePoint location="7990,3865" />
+      <AbsolutePoint location="4055,3865" />
+      <AbsolutePoint location="4055,3913" />
+      <AbsolutePoint location="253,3913" />
+      <AbsolutePoint location="253,3798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pic_rel.do,showpic_rel,/backstage/Showpic_rel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8651,1302" />
+      <AbsolutePoint location="8725,1302" />
+      <AbsolutePoint location="8725,2376" />
+      <AbsolutePoint location="8640,2376" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,regfront,/front/web/Reg.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="35,328" />
+      <AbsolutePoint location="35,1413" />
+      <AbsolutePoint location="2649,1413" />
+      <AbsolutePoint location="2649,1652" />
+      <AbsolutePoint location="2598,1652" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/friendlink.do,updatefriendlink,/backstage/front/friendlink/Updatefriendlink.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7966,2850" />
+      <AbsolutePoint location="7966,2719" />
+      <AbsolutePoint location="6303,2719" />
+      <AbsolutePoint location="6303,419" />
+      <AbsolutePoint location="8014,419" />
+      <AbsolutePoint location="8014,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,updateuserpermit,/backstage/user/Updateuser_permit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="97,328" />
+      <AbsolutePoint location="97,423" />
+      <AbsolutePoint location="-60,423" />
+      <AbsolutePoint location="-60,4533" />
+      <AbsolutePoint location="4515,4533" />
+      <AbsolutePoint location="4515,2874" />
+      <AbsolutePoint location="4550,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_forum.do,addforum,/front/bbs/manage/Addforum.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1765,350" />
+      <AbsolutePoint location="1765,141" />
+      <AbsolutePoint location="6637,141" />
+      <AbsolutePoint location="6637,2874" />
+      <AbsolutePoint location="6570,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/video_rel.do,showvideo_rel,/backstage/Showvideo_rel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8450,1802" />
+      <AbsolutePoint location="8409,1802" />
+      <AbsolutePoint location="8409,2576" />
+      <AbsolutePoint location="8450,2576" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_post.do,showpost,/front/bbs/Showpost.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1364,2950" />
+      <AbsolutePoint location="1364,2941" />
+      <AbsolutePoint location="1939,2941" />
+      <AbsolutePoint location="1939,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/video_rel.do,updatevideo_rel,/backstage/Updatevideo_rel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8559,1854" />
+      <AbsolutePoint location="8559,2165" />
+      <AbsolutePoint location="7659,2165" />
+      <AbsolutePoint location="7659,2471" />
+      <AbsolutePoint location="8676,2471" />
+      <AbsolutePoint location="8676,2795" />
+      <AbsolutePoint location="8409,2795" />
+      <AbsolutePoint location="8409,2865" />
+      <AbsolutePoint location="8127,2865" />
+      <AbsolutePoint location="8127,3243" />
+      <AbsolutePoint location="6637,3243" />
+      <AbsolutePoint location="6637,3413" />
+      <AbsolutePoint location="6267,3413" />
+      <AbsolutePoint location="6267,3765" />
+      <AbsolutePoint location="7658,3765" />
+      <AbsolutePoint location="7658,3703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/video_group.do,showvideo_group,/backstage/video_group/Showvideo_group.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8676,1054" />
+      <AbsolutePoint location="8676,2341" />
+      <AbsolutePoint location="7402,2341" />
+      <AbsolutePoint location="7402,2350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/progress.do,showprogress,/backstage/progress/Showprogress.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7960,3734" />
+      <AbsolutePoint location="7960,3813" />
+      <AbsolutePoint location="5585,3813" />
+      <AbsolutePoint location="5585,3913" />
+      <AbsolutePoint location="4355,3913" />
+      <AbsolutePoint location="4355,3774" />
+      <AbsolutePoint location="906,3774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,updateuser,/backstage/user/Updateuser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="180,261" />
+      <AbsolutePoint location="295,261" />
+      <AbsolutePoint location="295,141" />
+      <AbsolutePoint location="1543,141" />
+      <AbsolutePoint location="1543,2719" />
+      <AbsolutePoint location="1960,2719" />
+      <AbsolutePoint location="1960,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,showart_good,/front/web/museum/Showart_good.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5572,3534" />
+      <AbsolutePoint location="5572,3574" />
+      <AbsolutePoint location="5394,3574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/in_product.do,showin_product,/backstage/product/Showin_product.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7850,291" />
+      <AbsolutePoint location="7843,291" />
+      <AbsolutePoint location="7843,871" />
+      <AbsolutePoint location="7981,871" />
+      <AbsolutePoint location="7981,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/product.do,updateproduct,/backstage/product/Updateproduct.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7850,83" />
+      <AbsolutePoint location="7797,83" />
+      <AbsolutePoint location="7797,674" />
+      <AbsolutePoint location="7850,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/publications.do,showpublications,/backstage/museum/publications/Showpublications.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8272,2834" />
+      <AbsolutePoint location="8272,2941" />
+      <AbsolutePoint location="3589,2941" />
+      <AbsolutePoint location="3589,3541" />
+      <AbsolutePoint location="223,3541" />
+      <AbsolutePoint location="223,3550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/param.do,Listmodule,/backstage/module/Listmodule.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="451,3050" />
+      <AbsolutePoint location="451,2819" />
+      <AbsolutePoint location="1748,2819" />
+      <AbsolutePoint location="1748,2842" />
+      <AbsolutePoint location="3766,2842" />
+      <AbsolutePoint location="3766,2798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,reply,/backstage/interactive/Addreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="169,2734" />
+      <AbsolutePoint location="169,2805" />
+      <AbsolutePoint location="6775,2805" />
+      <AbsolutePoint location="6775,2798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_category.do,listcategory,/front/bbs/manage/Listcategory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5994,2883" />
+      <AbsolutePoint location="6050,2883" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,showpic,/front/web/museum/Showpic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5694,3513" />
+      <AbsolutePoint location="8883,3513" />
+      <AbsolutePoint location="8883,1713" />
+      <AbsolutePoint location="1957,1713" />
+      <AbsolutePoint location="1957,1698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jgw_collection.do,showjgw_collection,/backstage/jgw/Showjgw_collection.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5403,2334" />
+      <AbsolutePoint location="5403,4413" />
+      <AbsolutePoint location="1381,4413" />
+      <AbsolutePoint location="1381,3698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/subscribe_email.do,showsubscribe_email,/backstage/museum/subscribe_email/Showsubscribe_email.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8112,2092" />
+      <AbsolutePoint location="8281,2092" />
+      <AbsolutePoint location="8281,2671" />
+      <AbsolutePoint location="8919,2671" />
+      <AbsolutePoint location="8919,3474" />
+      <AbsolutePoint location="8532,3474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/position.do,updatepositionpermit,/backstage/position/Updateposition_permit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7360,2550" />
+      <AbsolutePoint location="7360,2471" />
+      <AbsolutePoint location="7237,2471" />
+      <AbsolutePoint location="7237,174" />
+      <AbsolutePoint location="7250,174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jgw_words.do,showjgw_words,/backstage/jgw/Showjgw_words.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8263,1834" />
+      <AbsolutePoint location="8263,2242" />
+      <AbsolutePoint location="1429,2242" />
+      <AbsolutePoint location="1429,1798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,send,/backstage/interactive/Addsend.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="243,2650" />
+      <AbsolutePoint location="243,2113" />
+      <AbsolutePoint location="2709,2113" />
+      <AbsolutePoint location="2709,174" />
+      <AbsolutePoint location="2694,174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,listforum,/front/bbs/Listforum.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2340,283" />
+      <AbsolutePoint location="2385,283" />
+      <AbsolutePoint location="2385,913" />
+      <AbsolutePoint location="6142,913" />
+      <AbsolutePoint location="6142,898" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assets.do,outassets,/backstage/assets/Outassets.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1623" />
+      <AbsolutePoint location="651,1623" />
+      <AbsolutePoint location="651,1074" />
+      <AbsolutePoint location="1250,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,showexhibition,/front/web/ShowExhibition.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5305,3250" />
+      <AbsolutePoint location="5305,3205" />
+      <AbsolutePoint location="8933,3205" />
+      <AbsolutePoint location="8933,374" />
+      <AbsolutePoint location="8364,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article.do,showarticle,/backstage/front/article/Showarticle.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2283,1134" />
+      <AbsolutePoint location="2283,1313" />
+      <AbsolutePoint location="1390,1313" />
+      <AbsolutePoint location="1390,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/param.do,showpermit,/backstage/permit/Showpermit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,3105" />
+      <AbsolutePoint location="-8,3105" />
+      <AbsolutePoint location="-8,2071" />
+      <AbsolutePoint location="271,2071" />
+      <AbsolutePoint location="271,1098" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,login,/backstage/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="180,313" />
+      <AbsolutePoint location="730,313" />
+      <AbsolutePoint location="730,-55" />
+      <AbsolutePoint location="5421,-55" />
+      <AbsolutePoint location="5421,3074" />
+      <AbsolutePoint location="5310,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,showexhibition,/front/web/museum/ShowExhibition.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5542,3450" />
+      <AbsolutePoint location="5542,3413" />
+      <AbsolutePoint location="4773,3413" />
+      <AbsolutePoint location="4773,3550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article_column.do,showarticle_column,/backstage/front/article_column/Showarticle_column.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="606,1163" />
+      <AbsolutePoint location="1015,1163" />
+      <AbsolutePoint location="1015,1341" />
+      <AbsolutePoint location="7732,1341" />
+      <AbsolutePoint location="7732,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,listisread,/backstage/interactive/Listisread.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="191,2734" />
+      <AbsolutePoint location="191,2741" />
+      <AbsolutePoint location="5581,2741" />
+      <AbsolutePoint location="5581,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/videos.do,updatevideos,/backstage/videos/Updatevideos.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3549,3734" />
+      <AbsolutePoint location="3549,4173" />
+      <AbsolutePoint location="7372,4173" />
+      <AbsolutePoint location="7372,3698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/worktask.do,showworktask,/backstage/progress/Showworktask.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jgw_collection.do,updatejgw_collection,/backstage/jgw/Updatejgw_collection.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5150,2319" />
+      <AbsolutePoint location="2443,2319" />
+      <AbsolutePoint location="2443,3674" />
+      <AbsolutePoint location="2124,3674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,centerarticle,/front/web/Centerarticle.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5323,3334" />
+      <AbsolutePoint location="5323,3541" />
+      <AbsolutePoint location="4654,3541" />
+      <AbsolutePoint location="4654,3498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/createcode.do,createproject,/backstage/createcode/Addcreateproject.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7366,892" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_forum.do,listsecondforum,/front/bbs/manage/Listsecondforum.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1663,434" />
+      <AbsolutePoint location="1663,447" />
+      <AbsolutePoint location="345,447" />
+      <AbsolutePoint location="345,2974" />
+      <AbsolutePoint location="312,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assets.do,showassets,/backstage/assets/Showassets.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2254,1634" />
+      <AbsolutePoint location="2254,1735" />
+      <AbsolutePoint location="7666,1735" />
+      <AbsolutePoint location="7666,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/position.do,listposition,/backstage/position/Listposition.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7374,2550" />
+      <AbsolutePoint location="7374,2519" />
+      <AbsolutePoint location="8919,2519" />
+      <AbsolutePoint location="8919,141" />
+      <AbsolutePoint location="6778,141" />
+      <AbsolutePoint location="6778,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,right,/front/web/right.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5694,3483" />
+      <AbsolutePoint location="5733,3483" />
+      <AbsolutePoint location="5733,1533" />
+      <AbsolutePoint location="1630,1533" />
+      <AbsolutePoint location="1630,1498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,showmedia,/front/web/museum/Showmedia.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5450,3519" />
+      <AbsolutePoint location="5421,3519" />
+      <AbsolutePoint location="5421,3813" />
+      <AbsolutePoint location="3163,3813" />
+      <AbsolutePoint location="3163,3598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_forum.do,listfirstforum,/front/bbs/manage/Listfirstforum.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,392" />
+      <AbsolutePoint location="1473,392" />
+      <AbsolutePoint location="1473,841" />
+      <AbsolutePoint location="6253,841" />
+      <AbsolutePoint location="6253,398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,loginjsp,/front/web/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5572,3450" />
+      <AbsolutePoint location="5572,3413" />
+      <AbsolutePoint location="6730,3413" />
+      <AbsolutePoint location="6730,3550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pictures.do,addpiliang,/backstage/pictures/Addpiliang.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8670,192" />
+      <AbsolutePoint location="8883,192" />
+      <AbsolutePoint location="8883,874" />
+      <AbsolutePoint location="8694,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pic_rel.do,updatepic_rel,/backstage/Updatepic_rel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8450,1305" />
+      <AbsolutePoint location="4807,1305" />
+      <AbsolutePoint location="4807,2519" />
+      <AbsolutePoint location="1651,2519" />
+      <AbsolutePoint location="1651,2550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/log.do,listlog,/backstage/Listlog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2040,83" />
+      <AbsolutePoint location="2115,83" />
+      <AbsolutePoint location="2115,-25" />
+      <AbsolutePoint location="6436,-25" />
+      <AbsolutePoint location="6436,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/subscribe_email.do,updatesubscribe_email,/backstage/museum/subscribe_email/Updatesubscribe_email.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7850,2105" />
+      <AbsolutePoint location="6001,2105" />
+      <AbsolutePoint location="6001,3346" />
+      <AbsolutePoint location="7747,3346" />
+      <AbsolutePoint location="7747,3450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/out_product.do,out_productdo,/backstage/product/Out_productdo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4488,3392" />
+      <AbsolutePoint location="4547,3392" />
+      <AbsolutePoint location="4547,1407" />
+      <AbsolutePoint location="7978,1407" />
+      <AbsolutePoint location="7978,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,updateuserpwd,/backstage/user/Updateuserpwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="97,240" />
+      <AbsolutePoint location="97,169" />
+      <AbsolutePoint location="-120,169" />
+      <AbsolutePoint location="-120,2513" />
+      <AbsolutePoint location="1215,2513" />
+      <AbsolutePoint location="1215,2774" />
+      <AbsolutePoint location="1188,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,experts,/front/web/museum/ListExperts.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5602,3534" />
+      <AbsolutePoint location="5602,3613" />
+      <AbsolutePoint location="1669,3613" />
+      <AbsolutePoint location="1669,3598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pictures.do,showpictures,/backstage/pictures/Showpictures.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8670,222" />
+      <AbsolutePoint location="8781,222" />
+      <AbsolutePoint location="8781,774" />
+      <AbsolutePoint location="8706,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article.do,updateexhibition,/backstage/museum/exhibition/Updateexhibitionshow.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2243,1134" />
+      <AbsolutePoint location="2243,1237" />
+      <AbsolutePoint location="8701,1237" />
+      <AbsolutePoint location="8701,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,listreceiver,/front/bbs/interactive/Listreceiver.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2327,334" />
+      <AbsolutePoint location="2327,341" />
+      <AbsolutePoint location="4219,341" />
+      <AbsolutePoint location="4219,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,setcolor,/front/bbs/Setcolor.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,253" />
+      <AbsolutePoint location="2085,253" />
+      <AbsolutePoint location="2085,-25" />
+      <AbsolutePoint location="327,-25" />
+      <AbsolutePoint location="327,574" />
+      <AbsolutePoint location="228,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/exhibition.do,listart_goods,/backstage/museum/exhibition/Listart_goods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8382,783" />
+      <AbsolutePoint location="8397,783" />
+      <AbsolutePoint location="8397,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assets_out.do,showassets_out,/backstage/assets/Showassets_out.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7250,1591" />
+      <AbsolutePoint location="7219,1591" />
+      <AbsolutePoint location="7219,2074" />
+      <AbsolutePoint location="7250,2074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/treebycai.do,addsonnode,/backstage/treebycai/Addsonnode.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2863,50" />
+      <AbsolutePoint location="2863,5" />
+      <AbsolutePoint location="4515,5" />
+      <AbsolutePoint location="4515,2774" />
+      <AbsolutePoint location="4500,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/picture_group.do,updatepicture_group,/backstage/picturegroup/Updatepicture_group.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8575,3634" />
+      <AbsolutePoint location="8575,3913" />
+      <AbsolutePoint location="5911,3913" />
+      <AbsolutePoint location="5911,3698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/experts.do,updateexperts,/backstage/museum/experts/Updateexperts.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="235,1650" />
+      <AbsolutePoint location="235,1435" />
+      <AbsolutePoint location="1783,1435" />
+      <AbsolutePoint location="1783,2705" />
+      <AbsolutePoint location="6601,2705" />
+      <AbsolutePoint location="6601,3450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,searchpostlist,/front/bbs/Searchpostlist.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2245,334" />
+      <AbsolutePoint location="2245,513" />
+      <AbsolutePoint location="841,513" />
+      <AbsolutePoint location="841,613" />
+      <AbsolutePoint location="7357,613" />
+      <AbsolutePoint location="7357,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_post.do,listpost,/front/bbs/Listpost.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,2983" />
+      <AbsolutePoint location="856,2983" />
+      <AbsolutePoint location="856,1913" />
+      <AbsolutePoint location="4479,1913" />
+      <AbsolutePoint location="4479,374" />
+      <AbsolutePoint location="4550,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_forum.do,addsecondforum,/front/bbs/manage/Addsecondforum.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,378" />
+      <AbsolutePoint location="1443,378" />
+      <AbsolutePoint location="1443,742" />
+      <AbsolutePoint location="7219,742" />
+      <AbsolutePoint location="7219,374" />
+      <AbsolutePoint location="7250,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,addtjman,/backstage/interactive/Addtjman.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="169,2650" />
+      <AbsolutePoint location="169,2641" />
+      <AbsolutePoint location="5089,2641" />
+      <AbsolutePoint location="5089,198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/friends.do,listfriend,/front/bbs/friend/Listfriend.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="157,850" />
+      <AbsolutePoint location="157,831" />
+      <AbsolutePoint location="7743,831" />
+      <AbsolutePoint location="7743,598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/friendlink.do,showfriendlink,/backstage/front/friendlink/Showfriendlink.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7976,2850" />
+      <AbsolutePoint location="7976,2707" />
+      <AbsolutePoint location="8799,2707" />
+      <AbsolutePoint location="8799,574" />
+      <AbsolutePoint location="8166,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/department.do,treelistforposition,/backstage/position/tree_position.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5382,113" />
+      <AbsolutePoint location="5885,113" />
+      <AbsolutePoint location="5885,174" />
+      <AbsolutePoint location="6050,174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,listSend,/front/bbs/interactive/Listsend.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,283" />
+      <AbsolutePoint location="2055,283" />
+      <AbsolutePoint location="2055,5" />
+      <AbsolutePoint location="-90,5" />
+      <AbsolutePoint location="-90,774" />
+      <AbsolutePoint location="50,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,show,/front/web/Show.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5388,3291" />
+      <AbsolutePoint location="5443,3291" />
+      <AbsolutePoint location="5443,1019" />
+      <AbsolutePoint location="923,1019" />
+      <AbsolutePoint location="923,71" />
+      <AbsolutePoint location="403,71" />
+      <AbsolutePoint location="403,250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,listcompany,/backstage/company/Listcompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1164,2891" />
+      <AbsolutePoint location="1221,2891" />
+      <AbsolutePoint location="1221,3419" />
+      <AbsolutePoint location="4233,3419" />
+      <AbsolutePoint location="4233,174" />
+      <AbsolutePoint location="4550,174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,showuserpermit,/backstage/user/Showuser_permit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="127,240" />
+      <AbsolutePoint location="127,169" />
+      <AbsolutePoint location="425,169" />
+      <AbsolutePoint location="425,113" />
+      <AbsolutePoint location="1467,113" />
+      <AbsolutePoint location="1467,-85" />
+      <AbsolutePoint location="4975,-85" />
+      <AbsolutePoint location="4975,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,updateuserpwd,/front/bbs/Updateuserpwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2215,334" />
+      <AbsolutePoint location="2215,487" />
+      <AbsolutePoint location="2137,487" />
+      <AbsolutePoint location="2137,2941" />
+      <AbsolutePoint location="3454,2941" />
+      <AbsolutePoint location="3454,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/worktask.do,updateworktask,/backstage/progress/Updateworktask.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,addmessage,/backstage/interactive/Addmessage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="288,2691" />
+      <AbsolutePoint location="295,2691" />
+      <AbsolutePoint location="295,1810" />
+      <AbsolutePoint location="4177,1810" />
+      <AbsolutePoint location="4177,198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_forum.do,Addmoderator,/front/bbs/manage/Addmoderator.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1711,434" />
+      <AbsolutePoint location="1711,637" />
+      <AbsolutePoint location="4771,637" />
+      <AbsolutePoint location="4771,298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/product.do,showproduct,/backstage/product/Showproduct.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7850,105" />
+      <AbsolutePoint location="7819,105" />
+      <AbsolutePoint location="7819,774" />
+      <AbsolutePoint location="7850,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/department.do,updatenode,/backstage/department/Updatedepartment.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5266,134" />
+      <AbsolutePoint location="5266,174" />
+      <AbsolutePoint location="5450,174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,reg,/front/web/Reg.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5269,3334" />
+      <AbsolutePoint location="5269,3346" />
+      <AbsolutePoint location="2737,3346" />
+      <AbsolutePoint location="2737,1674" />
+      <AbsolutePoint location="2598,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/position.do,updateposition,/backstage/position/Updateposition.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7470,2618" />
+      <AbsolutePoint location="8747,2618" />
+      <AbsolutePoint location="8747,913" />
+      <AbsolutePoint location="7684,913" />
+      <AbsolutePoint location="7684,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/createcode.do,listcreatecode,/backstage/createcode/Listcreatecode.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7482,883" />
+      <AbsolutePoint location="7550,883" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,listinteractive,/backstage/interactive/Listinteractive.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2692" />
+      <AbsolutePoint location="6,2692" />
+      <AbsolutePoint location="6,2305" />
+      <AbsolutePoint location="5107,2305" />
+      <AbsolutePoint location="5107,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/museum.do,exhibition,/front/web/museum/ListExhibition.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5450,3513" />
+      <AbsolutePoint location="3478,3513" />
+      <AbsolutePoint location="3478,3550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jgw_words.do,updatejgw_words,/backstage/jgw/Updatejgw_words.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8249,1834" />
+      <AbsolutePoint location="8249,1945" />
+      <AbsolutePoint location="3547,1945" />
+      <AbsolutePoint location="3547,1798" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,centerarticlelist,/front/web/Centerarticlelist.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5291,3250" />
+      <AbsolutePoint location="5291,3213" />
+      <AbsolutePoint location="3921,3213" />
+      <AbsolutePoint location="3921,65" />
+      <AbsolutePoint location="3466,65" />
+      <AbsolutePoint location="3466,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,showuser,/backstage/user/Showuser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="15,284" />
+      <AbsolutePoint location="-150,284" />
+      <AbsolutePoint location="-150,2618" />
+      <AbsolutePoint location="7054,2618" />
+      <AbsolutePoint location="7054,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_post.do,addrepost,/front/bbs/Addrepost.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1434,2983" />
+      <AbsolutePoint location="1515,2983" />
+      <AbsolutePoint location="1515,2220" />
+      <AbsolutePoint location="6327,2220" />
+      <AbsolutePoint location="6327,374" />
+      <AbsolutePoint location="6650,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,reg,/backstage/user/reg.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="180,283" />
+      <AbsolutePoint location="261,283" />
+      <AbsolutePoint location="261,720" />
+      <AbsolutePoint location="327,720" />
+      <AbsolutePoint location="327,2713" />
+      <AbsolutePoint location="1339,2713" />
+      <AbsolutePoint location="1339,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,index,/front/bbs/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2340,313" />
+      <AbsolutePoint location="7030,313" />
+      <AbsolutePoint location="7030,350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assets_out.do,updateassets_out,/backstage/assets/Updateassets_out.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7417,1550" />
+      <AbsolutePoint location="7417,1319" />
+      <AbsolutePoint location="3601,1319" />
+      <AbsolutePoint location="3601,2050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front.do,showmodule,/front/web/Showmodule.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5269,3250" />
+      <AbsolutePoint location="5269,3235" />
+      <AbsolutePoint location="1645,3235" />
+      <AbsolutePoint location="1645,3250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,updatecompany,/backstage/company/Updatecompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1057,2850" />
+      <AbsolutePoint location="1057,2842" />
+      <AbsolutePoint location="1678,2842" />
+      <AbsolutePoint location="1678,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,login,/front/bbs/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2340,253" />
+      <AbsolutePoint location="2415,253" />
+      <AbsolutePoint location="2415,720" />
+      <AbsolutePoint location="7630,720" />
+      <AbsolutePoint location="7630,698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/experts.do,showexperts,/backstage/museum/experts/Showexperts.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="157,1734" />
+      <AbsolutePoint location="157,2535" />
+      <AbsolutePoint location="-114,2535" />
+      <AbsolutePoint location="-114,5725" />
+      <AbsolutePoint location="7189,5725" />
+      <AbsolutePoint location="7189,3498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article.do,updatearticlesummary,/backstage/front/article/Updatearticlesummary.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2317,1134" />
+      <AbsolutePoint location="2317,1505" />
+      <AbsolutePoint location="7715,1505" />
+      <AbsolutePoint location="7715,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/in_product.do,updatein_product,/backstage/product/Updatein_product.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8082,305" />
+      <AbsolutePoint location="8905,305" />
+      <AbsolutePoint location="8905,1374" />
+      <AbsolutePoint location="8124,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/art_goods.do,updateart_goods,/backstage/museum/art_goods/Updateart_goods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8263,950" />
+      <AbsolutePoint location="8263,941" />
+      <AbsolutePoint location="2437,941" />
+      <AbsolutePoint location="2437,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assets_use.do,showassets_use,/backstage/assets/Showassets_use.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="6166,1550" />
+      <AbsolutePoint location="6166,1539" />
+      <AbsolutePoint location="8101,1539" />
+      <AbsolutePoint location="8101,1950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,updateuserbbs,/front/bbs/Updateuser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="149,328" />
+      <AbsolutePoint location="149,337" />
+      <AbsolutePoint location="605,337" />
+      <AbsolutePoint location="605,687" />
+      <AbsolutePoint location="1237,687" />
+      <AbsolutePoint location="1237,3041" />
+      <AbsolutePoint location="3145,3041" />
+      <AbsolutePoint location="3145,2998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,listuser,/backstage/user/Listuser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="67,328" />
+      <AbsolutePoint location="67,365" />
+      <AbsolutePoint location="0,365" />
+      <AbsolutePoint location="0,2013" />
+      <AbsolutePoint location="6609,2013" />
+      <AbsolutePoint location="6609,2674" />
+      <AbsolutePoint location="6650,2674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,loginreg,/backstage/user/loginreg.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="15,254" />
+      <AbsolutePoint location="-60,254" />
+      <AbsolutePoint location="-60,35" />
+      <AbsolutePoint location="6154,35" />
+      <AbsolutePoint location="6154,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_post.do,updatepost,/front/bbs/Updatepost.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,2974" />
+      <AbsolutePoint location="930,2974" />
+      <AbsolutePoint location="930,2418" />
+      <AbsolutePoint location="7485,2418" />
+      <AbsolutePoint location="7485,2674" />
+      <AbsolutePoint location="7550,2674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front_module.do,updatefront_module,/backstage/front/module/Updatemodule.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,1291" />
+      <AbsolutePoint location="3327,1291" />
+      <AbsolutePoint location="3327,2440" />
+      <AbsolutePoint location="7539,2440" />
+      <AbsolutePoint location="7539,3274" />
+      <AbsolutePoint location="7550,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,updateuser,/front/bbs/Updateuser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2223,250" />
+      <AbsolutePoint location="2223,217" />
+      <AbsolutePoint location="1843,217" />
+      <AbsolutePoint location="1843,2819" />
+      <AbsolutePoint location="3145,2819" />
+      <AbsolutePoint location="3145,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/interactive.do,showinteractive,/backstage/interactive/Showinteractive.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="271,2650" />
+      <AbsolutePoint location="271,2535" />
+      <AbsolutePoint location="7237,2535" />
+      <AbsolutePoint location="7237,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/exhibition.do,updateexhibition,/backstage/museum/exhibition/Updateexhibition.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8382,805" />
+      <AbsolutePoint location="8947,805" />
+      <AbsolutePoint location="8947,3274" />
+      <AbsolutePoint location="8484,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/createcode.do,createcodeforservice,/backstage/createcode/Addcreatecodeforservice.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="7250,905" />
+      <AbsolutePoint location="6919,905" />
+      <AbsolutePoint location="6919,4779" />
+      <AbsolutePoint location="2917,4779" />
+      <AbsolutePoint location="2917,3698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roles.do,updaterole,/backstage/role/Updateroles.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="43,3339" />
+      <AbsolutePoint location="43,5259" />
+      <AbsolutePoint location="4537,5259" />
+      <AbsolutePoint location="4537,119" />
+      <AbsolutePoint location="3163,119" />
+      <AbsolutePoint location="3163,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/roles.do,listroles,/backstage/role/Listroles.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="193,3313" />
+      <AbsolutePoint location="585,3313" />
+      <AbsolutePoint location="585,2774" />
+      <AbsolutePoint location="564,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/out_product.do,showout_product,/backstage/product/Showout_product.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4473,3350" />
+      <AbsolutePoint location="4473,3013" />
+      <AbsolutePoint location="5691,3013" />
+      <AbsolutePoint location="5691,3350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assets_use.do,updateassets_use,/backstage/assets/Updateassets_use.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="6050,1583" />
+      <AbsolutePoint location="5967,1583" />
+      <AbsolutePoint location="5967,1913" />
+      <AbsolutePoint location="7375,1913" />
+      <AbsolutePoint location="7375,1950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs_category.do,Addmoderator,/front/bbs/manage/Addmoderator.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="5750,2931" />
+      <AbsolutePoint location="4845,2931" />
+      <AbsolutePoint location="4845,274" />
+      <AbsolutePoint location="4794,274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article.do,showexhibition,/backstage/museum/exhibition/Showexhibitionshow.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2331,1134" />
+      <AbsolutePoint location="2331,1435" />
+      <AbsolutePoint location="8905,1435" />
+      <AbsolutePoint location="8905,3374" />
+      <AbsolutePoint location="8796,3374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/article_column.do,updatearticle_column2,/backstage/front/article_column/Updatearticle_column2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="588,1234" />
+      <AbsolutePoint location="588,1826" />
+      <AbsolutePoint location="2941,1826" />
+      <AbsolutePoint location="2941,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bbs.do,showuser,/front/bbs/Showuser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2275,334" />
+      <AbsolutePoint location="2275,513" />
+      <AbsolutePoint location="7639,513" />
+      <AbsolutePoint location="7639,298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/video_group.do,updatevideo_group,/backstage/video_group/Updatevideo_group.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="8570,1054" />
+      <AbsolutePoint location="8570,1205" />
+      <AbsolutePoint location="8431,1205" />
+      <AbsolutePoint location="8431,2376" />
+      <AbsolutePoint location="8166,2376" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

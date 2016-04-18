@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath*:applicationContext*.xml</param-value>
+	</context-param>
+	<context-param>
+	<param-name>webAppRootKey</param-name>
+		<param-value>edbc_key</param-value>
+	</context-param>
+	 <listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+	
+	 <!-- log4j -->
+	<!--<listener> 
+        <listener-class> org.springframework.web.util.Log4jConfigListener </listener-class> 
+    </listener>
+    -->
+    
+    <!-- 防止内存泄漏 -->
+     <listener> 
+        <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class> 
+    </listener> 
+   
+    <!-- spring 过滤器配置 -->
+    <filter>
+		<filter-name>Spring character encoding filter</filter-name>
+		<filter-class>
+			org.springframework.web.filter.CharacterEncodingFilter
+		</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>Spring character encoding filter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<filter>
+ 		<filter-name>OpenSessionInView</filter-name>
+ 		<filter-class>org.springframework.orm.hibernate3.support.OpenSessionInViewFilter</filter-class>
+		<init-param>      
+          <param-name>singleSession</param-name>   
+          <param-value>true</param-value>      
+    	</init-param> 
+    	<init-param>
+         <param-name>flushMode</param-name>
+  		 <param-value>AUTO</param-value>        
+        </init-param>
+	</filter>
+	<filter-mapping>
+ 		<filter-name>OpenSessionInView</filter-name>
+ 		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+		
+	<!-- struts action配置 -->
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>
+			org.apache.struts.action.ActionServlet
+		</servlet-class>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/struts-config.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>3</param-value>
+		</init-param>
+		<init-param>
+			<param-name>detail</param-name>
+			<param-value>3</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+<!--上传配置 -->
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>dwr-invoker</servlet-name>
+		<servlet-class>uk.ltd.getahead.dwr.DWRServlet</servlet-class>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>
+				allowGetForSafariButMakeForgeryEasier
+			</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>  
+          <param-name>crossDomainSessionSecurity</param-name>  
+           <param-value>false</param-value>  
+        </init-param>  
+		
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dwr-invoker</servlet-name>
+		<url-pattern>/dwr/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<display-name>FCKeditor Test Application</display-name>
+  
+	<servlet>
+		<servlet-name>Connector</servlet-name>
+		<servlet-class>com.fredck.FCKeditor.connector.ConnectorServlet</servlet-class>
+		<init-param>
+			<param-name>baseDir</param-name>
+			<param-value>/UserFiles/</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>SimpleUploader</servlet-name>
+		<servlet-class>com.fredck.FCKeditor.uploader.SimpleUploaderServlet</servlet-class>
+		<init-param>
+			<param-name>baseDir</param-name>
+			<param-value>/UserFiles/</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>enabled</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>AllowedExtensionsFile</param-name>
+			<param-value></param-value>
+		</init-param>
+		<init-param>
+			<param-name>DeniedExtensionsFile</param-name>
+			<param-value>php|php3|php5|phtml|asp|aspx|ascx|jsp|cfm|cfc|pl|bat|exe|dll|reg|cgi</param-value>
+		</init-param>
+		<init-param>
+			<param-name>AllowedExtensionsImage</param-name>
+			<param-value>jpg|gif|jpeg|png|bmp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>DeniedExtensionsImage</param-name>
+			<param-value></param-value>
+		</init-param>
+		<init-param>
+			<param-name>AllowedExtensionsFlash</param-name>
+			<param-value>swf|fla|flv</param-value>
+		</init-param>
+		<init-param>
+			<param-name>DeniedExtensionsFlash</param-name>
+			<param-value></param-value>
+		</init-param>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Connector</servlet-name>
+    <url-pattern>/FCKeditor/editor/filemanager/browser/default/connectors/jsp/connector</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>SimpleUploader</servlet-name>
+    <url-pattern>/FCKeditor/editor/filemanager/upload/simpleuploader</url-pattern>
+  </servlet-mapping>
+	
+	<servlet>
+<servlet-name>ValidateCodeServlet</servlet-name>
+<servlet-class>org.dbc.util.ValidateCodeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <url-pattern>/ValidateCodeServlet</url-pattern>
+  </servlet-mapping>
+  
+  	<servlet>
+		<servlet-name>muploadServlet</servlet-name>
+		<servlet-class>org.dbc.util.MUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>muploadServlet</servlet-name>
+		<url-pattern>/mupload.do</url-pattern>
+	</servlet-mapping>
+  
+  <servlet>
+          <servlet-name>DisplayChart</servlet-name>
+          <servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+</servlet>
+<servlet-mapping>
+          <servlet-name>DisplayChart</servlet-name>
+          <url-pattern>/DisplayChart</url-pattern>
+</servlet-mapping>
+        
+</web-app>
+

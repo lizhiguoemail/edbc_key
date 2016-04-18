@@ -1,0 +1,1 @@
+FCKLang.InsertCode  = 'Insert Codes' ;

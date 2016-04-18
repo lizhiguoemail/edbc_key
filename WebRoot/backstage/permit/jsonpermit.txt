@@ -1,0 +1,7 @@
+[ {text: '互动平台',checked:false,id: '01',leaf:true}, 
+  {text: '用户管理',checked:false,id: '02',children: [{text:'  用户列表  ',checked:false,id:'021',children: [{text:'  新建用户  ',checked:false,leaf:true,id:'0211'},{text:'  编辑用户  ',checked:false,leaf:true,id:'0212'},{text:'  角色配置  ',checked:false,leaf:true,id:'0213'},{text:'  权限配置  ',checked:false,leaf:true,id:'0214'},{text:'  查看所有权限  ',checked:false,leaf:true,id:'0215'},{text:'  密码修改  ',checked:false,leaf:true,id:'0216'},{text:'  删除用户  ',checked:false,leaf:true,id:'0217'}]}]}, 
+  {text: '日志管理',checked:false,id : '03',children: [{text:'  日志查看  ',checked:false,leaf:true,id:'31'}]}, 
+  {text: '系统配置',checked:false,id : '04',children: [{text:'  模块配置  ',leaf:true,checked:false,id:'41'},{text:'  权限配置  ',leaf:true,checked:false,id:'42'},{text:'  角色配置  ',leaf:true,checked:false,id:'43'}]}, 
+  {text: '单位部门管理',checked:false,id : '05',children: [{text:'  单位管理  ',checked:false,leaf:true,id:'51'},{text:'  部门管理  ',checked:false,leaf:true,id:'52'},{text:'  职位管理  ',checked:false,leaf:true,id:'53'}]}, 
+  {text: '代码生成器',checked:false,id : '06',children: [{text:'  生成代码  ',checked:false,leaf:true,id:'61'},{text:'  代码生成历史记录  ',checked:false,leaf:true,id:'62'}]}
+]

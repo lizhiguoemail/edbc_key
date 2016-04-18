@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<struts-config>
+  <form-beans >
+    <form-bean name="userForm" type="org.dbc.formBean.UserForm" />
+    <form-bean name="rolesForm" type="org.dbc.formBean.RolesForm" />
+	<form-bean name="companyForm" type="org.dbc.formBean.CompanyForm" />
+	<form-bean name="bbs_forumForm" type="org.dbc.formBean.Bbs_ForumForm" />
+	<form-bean name="bbs_postForm" type="org.dbc.formBean.Bbs_PostForm" />
+	<form-bean name="bbs_paramsForm" type="org.dbc.formBean.Bbs_ParamsForm" />
+	<form-bean name="articleForm" type="org.dbc.formBean.ArticleForm" />
+	<form-bean name="base_typeForm" type="org.dbc.formBean.Base_typeForm" />
+	<form-bean name="front_moduleForm" type="org.dbc.formBean.Front_moduleForm" />
+	<form-bean name="article_columnForm" type="org.dbc.formBean.Article_columnForm" />
+	<form-bean name="friendlinkForm" type="org.dbc.formBean.FriendlinkForm" />
+	<form-bean name="productForm" type="org.dbc.formBean.ProductForm" />
+	<form-bean name="in_productForm" type="org.dbc.formBean.In_productForm" />
+	<form-bean name="out_productForm" type="org.dbc.formBean.Out_productForm" />
+	<form-bean name="assetsForm" type="org.dbc.formBean.AssetsForm" />
+	<form-bean name="assets_useForm" type="org.dbc.formBean.Assets_useForm" />
+	<form-bean name="assets_outForm" type="org.dbc.formBean.Assets_outForm" />
+	<form-bean name="subscribe_emailForm" type="org.dbc.formBean.Subscribe_emailForm" />
+	<form-bean name="expertsForm" type="org.dbc.formBean.ExpertsForm" />
+	<form-bean name="publicationsForm" type="org.dbc.formBean.PublicationsForm" />
+	<form-bean name="exhibitionForm" type="org.dbc.formBean.ExhibitionForm" />
+	<form-bean name="art_goodsForm" type="org.dbc.formBean.Art_GoodsForm" />
+	<form-bean name="jgw_wordsForm" type="org.dbc.formBean.Jgw_wordsForm" />
+	<form-bean name="jgw_collectionForm" type="org.dbc.formBean.Jgw_collectionForm" />
+	<form-bean name="picturesForm" type="org.dbc.formBean.PicturesForm" />
+	<form-bean name="picture_groupForm" type="org.dbc.formBean.Picture_groupForm" />
+	<form-bean name="videosForm" type="org.dbc.formBean.VideosForm" />
+	<form-bean name="video_groupForm" type="org.dbc.formBean.Video_groupForm" />
+	<form-bean name="pic_relForm" type="org.dbc.formBean.Pic_relForm" />
+	<form-bean name="video_relForm" type="org.dbc.formBean.Video_relForm" />
+	<form-bean name="progressForm" type="org.dbc.formBean.ProgressForm" />
+	<form-bean name="worktaskForm" type="org.dbc.formBean.WorktaskForm" />
+	
+  </form-beans>
+  
+  <action-mappings >
+  <action
+      parameter="methede"
+      path="/createjingtai"
+      scope="request"
+      type="org.dbc.action.CreatejingtaiAction" >
+    </action>
+  
+   <action
+      parameter="methede"
+      path="/front"
+      scope="request"
+      type="org.dbc.action.front.FrontAction" >
+     <forward name="index" path="/front/web/index.jsp" />
+     <forward name="showmodule" path="/front/web/Showmodule.jsp" />
+     <forward name="centerarticle" path="/front/web/Centerarticle.jsp" />
+     <forward name="centerarticlelist" path="/front/web/Centerarticlelist.jsp" />
+     <forward name="search" path="/front/web/Search.jsp" />
+     <forward name="show" path="/front/web/Show.jsp" />
+     <forward name="showweibo" path="/front/web/Showweibo.jsp" />
+     <forward name="showexhibition" path="/front/web/ShowExhibition.jsp" />
+     <forward name="reg" path="/front/web/Reg.jsp" />
+    </action>
+    
+    <action
+      parameter="methede"
+      attribute="userForm"
+      name="userForm"
+      path="/museum"
+      scope="request"
+      type="org.dbc.action.museum.MuseumAction" >
+     <forward name="exhibition" path="/front/web/museum/ListExhibition.jsp" />
+     <forward name="experts" path="/front/web/museum/ListExperts.jsp" />
+     <forward name="publications" path="/front/web/museum/ListPublications.jsp" />
+     <forward name="showmedia" path="/front/web/museum/Showmedia.jsp" />
+     <forward name="showexhibition" path="/front/web/museum/ShowExhibition.jsp" />
+     <forward name="right" path="/front/web/right.jsp" />
+     <forward name="showart_good" path="/front/web/museum/Showart_good.jsp" />
+     <forward name="showpic" path="/front/web/museum/Showpic.jsp" />
+     <forward name="loginjsp" path="/front/web/login.jsp" />
+     <forward name="updateuser" path="/front/web/Updateuser.jsp" />
+    </action>
+  
+      <action
+      attribute="userForm"
+      name="userForm"
+      parameter="methede"
+      path="/user"
+      scope="request"
+      type="org.dbc.action.UserAction">
+      <forward name="login" path="/backstage/login.jsp" />
+      <forward name="reg" path="/backstage/user/reg.jsp" />
+      <forward name="loginreg" path="/backstage/user/loginreg.jsp" />
+      <forward name="listuser" path="/backstage/user/Listuser.jsp" />
+      <forward name="updateuserpwd" path="/backstage/user/Updateuserpwd.jsp" />
+      <forward name="updateuser" path="/backstage/user/Updateuser.jsp" />
+      <forward name="index" path="/backstage/index.jsp" />
+      <forward name="showuser" path="/backstage/user/Showuser.jsp" />
+      <forward name="updateuser_role" path="/backstage/user/Updateuser_role.jsp" />
+      <forward name="updateuserpermit" path="/backstage/user/Updateuser_permit.jsp" />
+      <forward name="showuserpermit" path="/backstage/user/Showuser_permit.jsp" />
+      <forward name="updateuserbbs" path="/front/bbs/Updateuser.jsp" />
+      <forward name="updateuserpwdbbs" path="/front/bbs/Updateuserpwd.jsp" />
+      <forward name="regfront" path="/front/web/Reg.jsp" />
+    </action>
+    
+    <action
+      parameter="methede"
+      path="/param"
+      scope="request"
+      type="org.dbc.action.ParamAction" >
+     <forward name="Listmodule" path="/backstage/module/Listmodule.jsp" />
+     <forward name="showpermit" path="/backstage/permit/Showpermit.jsp" />
+    </action>
+
+    <action
+      parameter="methede"
+      path="/roles"
+      scope="request"
+      type="org.dbc.action.RolesAction">
+      <forward name="listroles" path="/backstage/role/Listroles.jsp" />
+      <forward name="updaterole" path="/backstage/role/Updateroles.jsp" />
+      <forward name="updaterolepermit" path="/backstage/role/Updaterole_permit.jsp" />
+    </action>
+    
+    <action
+      parameter="methede"
+      path="/log"
+      scope="request"
+      type="org.dbc.action.LogAction" >
+      <forward name="listlog" path="/backstage/Listlog.jsp" />
+    </action>
+    
+    <action
+      parameter="methede"
+      path="/treebycai"
+      scope="request"
+      type="org.dbc.action.TreeByCaiAction">
+      <forward name="addsonnode" path="/backstage/treebycai/Addsonnode.jsp" />
+      <forward name="updatenode" path="/backstage/treebycai/UpdateNode.jsp" />
+    </action>
+    
+     <action
+      parameter="methede"
+      path="/interactive"
+      scope="request"
+      type="org.dbc.action.InteractiveAction" >
+     <forward name="listunread" path="/backstage/interactive/Listunread.jsp" />
+     <forward name="listisread" path="/backstage/interactive/Listisread.jsp" />
+     <forward name="listinteractive" path="/backstage/interactive/Listinteractive.jsp" />
+     <forward name="showinteractive" path="/backstage/interactive/Showinteractive.jsp" />
+     <forward name="showsend" path="/backstage/interactive/Showsend.jsp" />
+     <forward name="showunread" path="/backstage/interactive/Showunread.jsp" />
+     <forward name="reply" path="/backstage/interactive/Addreply.jsp" />
+     <forward name="addmessage" path="/backstage/interactive/Addmessage.jsp" />
+     <forward name="send" path="/backstage/interactive/Addsend.jsp" />
+     <forward name="addtjman" path="/backstage/interactive/Addtjman.jsp" />
+    </action>
+    
+      <action
+      attribute="companyForm"
+      name="companyForm"
+      parameter="methede"
+      path="/company"
+      scope="request"
+      type="org.dbc.action.CompanyAction" >
+     <forward name="addcompany" path="/backstage/company/Addcompany.jsp" />
+     <forward name="updatecompany" path="/backstage/company/Updatecompany.jsp" />
+     <forward name="showcompany" path="/backstage/company/Showcompany.jsp" />
+     <forward name="listcompany" path="/backstage/company/Listcompany.jsp" />
+    </action>
+    
+      <action
+      parameter="methede"
+      path="/department"
+      scope="request"
+      type="org.dbc.action.DepartmentAction" >
+     <forward name="listdepartment" path="/backstage/department/Listdepartment.jsp" />
+     <forward name="addsondepartment" path="/backstage/department/Addsondepartment.jsp" />
+     <forward name="updatenode" path="/backstage/department/Updatedepartment.jsp" />
+     <forward name="treelistforposition" path="/backstage/position/tree_position.jsp" />
+    </action>
+    
+     <action
+      parameter="methede"
+      path="/position"
+      scope="request"
+      type="org.dbc.action.PositionAction" >
+     <forward name="listposition" path="/backstage/position/Listposition.jsp" />
+     <forward name="updatepositionpermit" path="/backstage/position/Updateposition_permit.jsp" />
+     <forward name="updateposition" path="/backstage/position/Updateposition.jsp" />
+    </action>
+
+     <action
+      parameter="methede"
+      path="/bbs"
+      scope="request"
+      type="org.dbc.action.BbsAction" >
+     <forward name="index" path="/front/bbs/index.jsp" />
+     <forward name="setcolor" path="/front/bbs/Setcolor.jsp" />
+     <forward name="updateuser" path="/front/bbs/Updateuser.jsp" />
+     <forward name="updateuserpwd" path="/front/bbs/Updateuserpwd.jsp" />
+     <forward name="searchpost" path="/front/bbs/Searchpost.jsp" />
+     <forward name="searchpostlist" path="/front/bbs/Searchpostlist.jsp" />
+     <forward name="send" path="/front/bbs/interactive/Addsend.jsp" />
+     <forward name="listreceiver" path="/front/bbs/interactive/Listreceiver.jsp" />
+     <forward name="listSend" path="/front/bbs/interactive/Listsend.jsp" />
+     <forward name="showinteractive" path="/front/bbs/interactive/Showinteractive.jsp" />
+     <forward name="reply" path="/front/bbs/interactive/Addreply.jsp" />
+     <forward name="showsend" path="/front/bbs/interactive/Showsend.jsp" />
+     <forward name="showuser" path="/front/bbs/Showuser.jsp" />
+     <forward name="login" path="/front/bbs/login.jsp" />
+     <forward name="listforum" path="/front/bbs/Listforum.jsp" />
+    </action>
+    
+     <action
+      parameter="methede"
+      path="/bbs_category"
+      scope="request"
+      type="org.dbc.action.Bbs_CategoryAction" >
+     <forward name="listcategory" path="/front/bbs/manage/Listcategory.jsp" />
+     <forward name="Addmoderator" path="/front/bbs/manage/Addmoderator.jsp" />
+    </action>
+    
+     <action
+      attribute="bbs_forumForm"
+      name="bbs_forumForm"
+      parameter="methede"
+      path="/bbs_forum"
+      scope="request"
+      type="org.dbc.action.Bbs_ForumAction" >
+     <forward name="addforum" path="/front/bbs/manage/Addforum.jsp" />
+     <forward name="addsecondforum" path="/front/bbs/manage/Addsecondforum.jsp" />
+     <forward name="listfirstforum" path="/front/bbs/manage/Listfirstforum.jsp" />
+     <forward name="listsecondforum" path="/front/bbs/manage/Listsecondforum.jsp" />
+     <forward name="Addmoderator" path="/front/bbs/manage/Addmoderator.jsp" />
+     <forward name="updateforum" path="/front/bbs/manage/Updatefirstforum.jsp" />
+     <forward name="updatesecondforum" path="/front/bbs/manage/Updatesecondforum.jsp" />
+    </action>
+    
+     <action
+      attribute="bbs_postForm"
+      name="bbs_postForm"
+      parameter="methede"
+      path="/bbs_post"
+      scope="request"
+      type="org.dbc.action.Bbs_PostAction" >
+     <forward name="addpost" path="/front/bbs/Addpost.jsp" />
+     <forward name="addrepost" path="/front/bbs/Addrepost.jsp" />
+     <forward name="addvote" path="/front/bbs/Addvote.jsp" />
+     <forward name="listpost" path="/front/bbs/Listpost.jsp" />
+     <forward name="showpost" path="/front/bbs/Showpost.jsp" />
+     <forward name="showvote" path="/front/bbs/Showvote.jsp" />
+     <forward name="updatepost" path="/front/bbs/Updatepost.jsp" />
+     <forward name="updatevote" path="/front/bbs/Updatevote.jsp" />
+    </action>
+    
+     <action
+      attribute="bbs_paramsForm"
+      name="bbs_paramsForm"
+      parameter="methede"
+      path="/bbs_params"
+      scope="request"
+      type="org.dbc.action.Bbs_ParamsAction" >
+     <forward name="updateparam" path="/front/bbs/manage/Updateparams.jsp" />
+    </action>
+    
+     <action
+      parameter="methede"
+      path="/bbs_rank"
+      scope="request"
+      type="org.dbc.action.Bbs_RankAction" >
+     <forward name="listrank" path="/front/bbs/manage/Listrank.jsp" />
+    </action>
+    
+     <action
+      parameter="methede"
+      path="/friends"
+      scope="request"
+      type="org.dbc.action.FriendsAction" >
+      <forward name="listfriend" path="/front/bbs/friend/Listfriend.jsp" />
+    </action>
+    
+      <action
+      parameter="methede"
+      path="/createcode"
+      scope="request"
+      type="org.dbc.action.CreateCodeAction" >
+      <forward name="createcode" path="/backstage/createcode/Addcreatecode.jsp" />
+      <forward name="createcodeforservice" path="/backstage/createcode/Addcreatecodeforservice.jsp" />
+      <forward name="createproject" path="/backstage/createcode/Addcreateproject.jsp" />
+      <forward name="listcreatecode" path="/backstage/createcode/Listcreatecode.jsp" />
+      <forward name="createsuccess" path="/backstage/createcode/Createsuccess.jsp" />
+    </action>
+    
+    <action
+        attribute="articleForm"
+        name="articleForm"
+        parameter="methede"
+        path="/article"
+        scope="request"
+        type="org.dbc.action.ArticleAction">
+        <forward name="updatearticle" path="/backstage/front/article/Updatearticle.jsp" />
+        <forward name="updatearticlerili" path="/backstage/front/article/Updatearticlerili.jsp" />
+        <forward name="updateexhibition" path="/backstage/museum/exhibition/Updateexhibitionshow.jsp" />
+        <forward name="showexhibition" path="/backstage/museum/exhibition/Showexhibitionshow.jsp" />
+        <forward name="updatearticlesummary" path="/backstage/front/article/Updatearticlesummary.jsp" />
+        <forward name="showarticle" path="/backstage/front/article/Showarticle.jsp" />
+    </action>
+    
+     <action
+        attribute="base_typeForm"
+        name="base_typeForm"
+        parameter="methede"
+        path="/base_type"
+        scope="request"
+        type="org.dbc.action.Base_typeAction">
+        <forward name="updatearticletype" path="/backstage/front/article/Updatearticle_type.jsp" />
+    </action>
+    
+     <action
+        attribute="front_moduleForm"
+        name="front_moduleForm"
+        parameter="methede"
+        path="/front_module"
+        scope="request"
+        type="org.dbc.action.Front_moduleAction">
+        <forward name="updatefront_module" path="/backstage/front/module/Updatemodule.jsp" />
+    </action>
+    
+     <action
+        attribute="article_columnForm"
+        name="article_columnForm"
+        parameter="methede"
+        path="/article_column"
+        scope="request"
+        type="org.dbc.action.Article_columnAction">
+        <forward name="updatearticle_column" path="/backstage/front/article_column/Updatearticle_column.jsp" />
+        <forward name="updatearticle_column2" path="/backstage/front/article_column/Updatearticle_column2.jsp" />
+        <forward name="add2article_column" path="/backstage/front/article_column/Addarticle_column2.jsp" />
+        <forward name="showarticle_column" path="/backstage/front/article_column/Showarticle_column.jsp" />
+    </action>
+    
+     <action
+        attribute="friendlinkForm"
+        name="friendlinkForm"
+        parameter="methede"
+        path="/friendlink"
+        scope="request"
+        type="org.dbc.action.FriendlinkAction">
+        <forward name="updatefriendlink" path="/backstage/front/friendlink/Updatefriendlink.jsp" />
+        <forward name="showfriendlink" path="/backstage/front/friendlink/Showfriendlink.jsp" />
+    </action>
+    
+     <action
+        attribute="productForm"
+        name="productForm"
+        parameter="methede"
+        path="/product"
+        scope="request"
+        type="org.dbc.action.ProductAction">
+        <forward name="updateproduct" path="/backstage/product/Updateproduct.jsp" />
+        <forward name="showproduct" path="/backstage/product/Showproduct.jsp" />
+    </action>
+    
+     <action
+        attribute="in_productForm"
+        name="in_productForm"
+        parameter="methede"
+        path="/in_product"
+        scope="request"
+        type="org.dbc.action.In_productAction">
+        <forward name="updatein_product" path="/backstage/product/Updatein_product.jsp" />
+        <forward name="showin_product" path="/backstage/product/Showin_product.jsp" />
+    </action>
+    
+    <action
+        attribute="out_productForm"
+        name="out_productForm"
+        parameter="methede"
+        path="/out_product"
+        scope="request"
+        type="org.dbc.action.Out_productAction">
+        <forward name="out_productdo" path="/backstage/product/Out_productdo.jsp" />
+        <forward name="showout_product" path="/backstage/product/Showout_product.jsp" />
+    </action>
+    
+     <action
+        attribute="assetsForm"
+        name="assetsForm"
+        parameter="methede"
+        path="/assets"
+        scope="request"
+        type="org.dbc.action.AssetsAction">
+        <forward name="updateassets" path="/backstage/assets/Updateassets.jsp" />
+        <forward name="showassets" path="/backstage/assets/Showassets.jsp" />
+       <forward name="useassets" path="/backstage/assets/Useassets.jsp" />
+       <forward name="outassets" path="/backstage/assets/Outassets.jsp" />
+    </action>
+    
+    <action
+        attribute="assets_useForm"
+        name="assets_useForm"
+        parameter="methede"
+        path="/assets_use"
+        scope="request"
+        type="org.dbc.action.Assets_useAction">
+        <forward name="updateassets_use" path="/backstage/assets/Updateassets_use.jsp" />
+        <forward name="showassets_use" path="/backstage/assets/Showassets_use.jsp" />
+    </action>
+    
+      <action
+        attribute="assets_outForm"
+        name="assets_outForm"
+        parameter="methede"
+        path="/assets_out"
+        scope="request"
+        type="org.dbc.action.Assets_outAction">
+        <forward name="updateassets_out" path="/backstage/assets/Updateassets_out.jsp" />
+        <forward name="showassets_out" path="/backstage/assets/Showassets_out.jsp" />
+    </action>
+    
+      <action
+        attribute="subscribe_emailForm"
+        name="subscribe_emailForm"
+        parameter="methede"
+        path="/subscribe_email"
+        scope="request"
+        type="org.dbc.action.Subscribe_emailAction">
+        <forward name="updatesubscribe_email" path="/backstage/museum/subscribe_email/Updatesubscribe_email.jsp" />
+        <forward name="showsubscribe_email" path="/backstage/museum/subscribe_email/Showsubscribe_email.jsp" />
+    </action>
+    
+     <action
+        attribute="expertsForm"
+        name="expertsForm"
+        parameter="methede"
+        path="/experts"
+        scope="request"
+        type="org.dbc.action.ExpertsAction">
+        <forward name="updateexperts" path="/backstage/museum/experts/Updateexperts.jsp" />
+        <forward name="showexperts" path="/backstage/museum/experts/Showexperts.jsp" />
+    </action>
+    
+     <action
+        attribute="publicationsForm"
+        name="publicationsForm"
+        parameter="methede"
+        path="/publications"
+        scope="request"
+        type="org.dbc.action.PublicationsAction">
+        <forward name="updatepublications" path="/backstage/museum/publications/Updatepublications.jsp" />
+        <forward name="showpublications" path="/backstage/museum/publications/Showpublications.jsp" />
+    </action>
+    
+     <action
+        attribute="exhibitionForm"
+        name="exhibitionForm"
+        parameter="methede"
+        path="/exhibition"
+        scope="request"
+        type="org.dbc.action.ExhibitionAction">
+        <forward name="updateexhibition" path="/backstage/museum/exhibition/Updateexhibition.jsp" />
+        <forward name="showexhibition" path="/backstage/museum/exhibition/Showexhibition.jsp" />
+        <forward name="listart_goods" path="/backstage/museum/exhibition/Listart_goods.jsp" />
+    </action>
+    
+    <action
+        attribute="art_goodsForm"
+        name="art_goodsForm"
+        parameter="methede"
+        path="/art_goods"
+        scope="request"
+        type="org.dbc.action.Art_GoodsAction">
+        <forward name="updateart_goods" path="/backstage/museum/art_goods/Updateart_goods.jsp" />
+        <forward name="showart_goods" path="/backstage/museum/art_goods/Showart_goods.jsp" />
+    </action>
+    
+    <action
+        attribute="jgw_wordsForm"
+        name="jgw_wordsForm"
+        parameter="methede"
+        path="/jgw_words"
+        scope="request"
+        type="org.dbc.action.Jgw_wordsAction">
+        <forward name="updatejgw_words" path="/backstage/jgw/Updatejgw_words.jsp" />
+        <forward name="showjgw_words" path="/backstage/jgw/Showjgw_words.jsp" />
+    </action>
+    
+     <action
+        attribute="jgw_collectionForm"
+        name="jgw_collectionForm"
+        parameter="methede"
+        path="/jgw_collection"
+        scope="request"
+        type="org.dbc.action.Jgw_collectionAction">
+        <forward name="updatejgw_collection" path="/backstage/jgw/Updatejgw_collection.jsp" />
+        <forward name="showjgw_collection" path="/backstage/jgw/Showjgw_collection.jsp" />
+    </action>
+    
+        <action
+        attribute="picturesForm"
+        name="picturesForm"
+        parameter="methede"
+        path="/pictures"
+        scope="request"
+        type="org.dbc.action.PicturesAction">
+        <forward name="updatepictures" path="/backstage/pictures/Updatepictures.jsp" />
+        <forward name="showpictures" path="/backstage/pictures/Showpictures.jsp" />
+        <forward name="addpiliang" path="/backstage/pictures/Addpiliang.jsp" />
+    </action>
+    <action
+        attribute="picture_groupForm"
+        name="picture_groupForm"
+        parameter="methede"
+        path="/picture_group"
+        scope="request"
+        type="org.dbc.action.Picture_groupAction">
+        <forward name="updatepicture_group" path="/backstage/picturegroup/Updatepicture_group.jsp" />
+        <forward name="showpicture_group" path="/backstage/picturegroup/Showpicture_group.jsp" />
+    </action>
+    <action
+        attribute="videosForm"
+        name="videosForm"
+        parameter="methede"
+        path="/videos"
+        scope="request"
+        type="org.dbc.action.VideosAction">
+        <forward name="updatevideos" path="/backstage/videos/Updatevideos.jsp" />
+        <forward name="showvideos" path="/backstage/videos/Showvideos.jsp" />
+    </action>
+    
+ 	<action
+        attribute="video_groupForm"
+        name="video_groupForm"
+        parameter="methede"
+        path="/video_group"
+        scope="request"
+        type="org.dbc.action.Video_groupAction">
+        <forward name="updatevideo_group" path="/backstage/video_group/Updatevideo_group.jsp" />
+        <forward name="showvideo_group" path="/backstage/video_group/Showvideo_group.jsp" />
+    </action>
+    
+    <action
+        attribute="pic_relForm"
+        name="pic_relForm"
+        parameter="methede"
+        path="/pic_rel"
+        scope="request"
+        type="org.dbc.action.Pic_relAction">
+        <forward name="updatepic_rel" path="/backstage/Updatepic_rel.jsp" />
+        <forward name="showpic_rel" path="/backstage/Showpic_rel.jsp" />
+    </action>
+    
+     <action
+        attribute="video_relForm"
+        name="video_relForm"
+        parameter="methede"
+        path="/video_rel"
+        scope="request"
+        type="org.dbc.action.Video_relAction">
+        <forward name="updatevideo_rel" path="/backstage/Updatevideo_rel.jsp" />
+        <forward name="showvideo_rel" path="/backstage/Showvideo_rel.jsp" />
+    </action>
+    
+     <action
+        attribute="progressForm"
+        name="progressForm"
+        parameter="methede"
+        path="/progress"
+        scope="request"
+        type="org.dbc.action.ProgressAction">
+        <forward name="updateprogress" path="/backstage/progress/Updateprogress.jsp" />
+        <forward name="showprogress" path="/backstage/progress/Showprogress.jsp" />
+    </action>
+    
+    <action
+        attribute="worktaskForm"
+        name="worktaskForm"
+        parameter="methede"
+        path="/worktask"
+        scope="request"
+        type="org.dbc.action.WorktaskAction">
+        <forward name="updateworktask" path="/backstage/progress/Updateworktask.jsp" />
+        <forward name="showworktask" path="/backstage/progress/Showworktask.jsp" />
+    </action>
+    
+    <action
+      parameter="methede"
+      path="/key"
+      scope="request"
+      type="org.key.action.KeyAction" >
+    </action>
+    
+   </action-mappings>
+
+    
+	 <controller contentType="text/html;charset=utf-8"  locale="true" nocache="true" processorClass="org.dbc.util.DMRequestProcessor"  maxFileSize="200M"  >
+	 </controller> 
+	
+  	<message-resources parameter="org.dbc.struts.ApplicationResources" />
+</struts-config>
+
+ 

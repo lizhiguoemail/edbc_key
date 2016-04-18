@@ -1,0 +1,378 @@
+body {
+	font-size: 12px;
+	font-style: normal;
+	padding: 0;
+	margin:0;
+	background: #DCD3C2;
+}
+html,body{
+width:100%;
+overflow-x:hidden; 
+}
+form{
+margin: 0px;
+padding: 0px;
+}
+.top{
+height:141px;
+width:100%;
+margin: 0 auto;
+background:url(../../../images/front/web/images/top.gif) repeat-x 0 0;
+}
+.logo{
+width:970px;
+padding-top:20px;
+margin: 0 auto;
+}
+.top .nav{
+width:1280px;
+margin: 0 auto;
+padding-top: 26px;
+}
+.top .nav ul{
+margin: 0 auto;
+padding-left: 137px;
+}
+.top .nav ul li{
+float:left;
+padding-left: 80px;
+font-size: 16px;
+font-family: 黑体;
+color: #E0D4C4;
+list-style-type: none;
+}
+.top .nav ul .first{
+float:left;
+padding-left: 20px;
+}
+.top .nav ul li a{
+text-decoration: none;
+color:#E0D4C4;
+}
+.top .nav ul li a:hover{
+text-decoration: none;
+color:#B85A18;
+}
+.main{
+margin: 0 auto;
+padding:0;
+width:975px;
+}
+.main .m1{
+width: 975px;
+height:300px;
+overflow: hidden;
+}
+.main .m1 .t1{
+float:left;
+width:325px;
+height:300px;
+overflow: hidden;
+}
+.main .m1 .t1 img{
+width:325px;
+height:300px;
+border: 0;
+}
+.main .m2{
+width: 975px;
+padding-top:20px;
+overflow: hidden;
+}
+.main .m2 .left{
+width: 650px;
+float:left;
+overflow: hidden;
+}
+.main .m2 .left .title{
+width: 650px;
+overflow: hidden;
+font-size: 18px;
+font-family: 黑体;
+}
+.main .m2 .left .title img{
+vertical-align: middle;
+}
+.main .m2 .left .newmain{
+padding-top:10px;	
+width: 650px;
+}
+.main .m2 .left .newmain .newlist{
+float: left;
+padding-left:20px;
+padding-top:10px;
+width: 630px;
+}
+.main .m2 .left .newmain .newlist a{
+text-decoration: none;
+color: #000000;
+font-family:宋体;
+font-size: 14px;
+}
+.main .m2 .right{
+width: 325px;
+float:left;
+overflow: hidden;
+}
+.main .m2 .right .title{
+width: 325px;
+overflow: hidden;
+font-size: 18px;
+font-family: 黑体;
+}
+.main .m2 .right .img{
+vertical-align: middle;
+}
+.main .m2 .right .newmain{
+padding-top:10px;	
+width: 325px;
+}
+.main .m2 .right .newmain .newlist{
+float: left;
+padding-left:20px;
+padding-top:10px;
+width: 325px;
+}
+.main .m2 .right .newmain .newlist a{
+text-decoration: none;
+color: #000000;
+font-family:宋体;
+font-size: 14px;
+}
+.main .m3{
+width: 975px;
+padding-top:20px;
+overflow: hidden;
+}
+.main .m4{
+width: 975px;
+padding-top:20px;
+overflow: hidden;
+}
+.main .m5{
+width: 975px;
+padding-top:10px;
+padding-bottom:40px;
+overflow: hidden;
+}
+.main .leftside{
+width:170px;
+margin-top: 25px;
+float: left;
+}
+.main .leftside .bj1{
+width:170px;
+height:27px;
+background: #756B61;
+vertical-align: middle;
+line-height: 27px;
+margin-bottom: 1px;
+}
+.main .leftside .bj2{
+width:170px;
+height:27px;
+background: #9F8F80;
+vertical-align: middle;
+line-height: 27px;
+margin-bottom: 1px;
+}
+.main .leftside .yijiwz{
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color:#ffffff;
+	padding-left: 20px;
+}
+.main .leftside .erjiwz{
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color:#ffffff;
+	padding-left: 60px;
+}
+.main .leftside .sanjiwz{
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color:#ffffff;
+	padding-left: 60px;
+}
+.main .leftside .yijia{
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color:#ffffff;
+	padding-left: 20px;
+	text-decoration: none;
+}
+.main .leftside .erjia{
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color:#ffffff;
+	padding-left: 60px;
+	text-decoration: none;
+}
+.main .leftside .sanjia{
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color:#ffffff;
+	padding-left: 60px;
+	text-decoration: none;
+}
+.main .centerside{
+margin-top: 25px;
+margin-left:45px;
+margin-right:35px;
+width:535px;
+float: left;
+}
+.main .rightside{
+margin-top: 25px;
+width:190px;
+float: left;
+}
+.dzb{
+width:188px;
+height:57px;
+background:url(../../../images/front/web/images/dianzibao.gif) no-repeat 0 0;
+}
+.dzb .dzbwz{
+font-size: 14px;
+color:#ffffff;
+padding-left: 10px;
+padding-top: 10px;
+font-family: 楷体-GB2312;
+}
+.dzb .dzbyy{
+font-size: 18px;
+color:#ffffff;
+padding-left: 10px;
+padding-top: 10px;
+font-family: Arial;
+font-weight: bold;
+font-style: italic;
+}
+.dzb2{
+width:188px;
+height:57px;
+margin-top:10px;
+background:url(../../../images/front/web/images/dianzibao.gif) no-repeat 0 0;
+}
+.dzb2 .dzbwz{
+font-size: 14px;
+color:#ffffff;
+padding-left: 10px;
+padding-top: 10px;
+font-family: 楷体-GB2312;
+}
+.dzb2 .dzbyy{
+font-size: 20px;
+color:#ffffff;
+padding-left: 10px;
+padding-top: 10px;
+font-family: 黑体;
+font-weight: 900;
+font-style: italic;
+}
+.date{
+margin-top:20px;
+}
+.date .title{
+font-size: 16px;
+font-family: 微软雅黑;
+padding-bottom: 10px;
+}
+/*日历样式*/
+.Calendar { 
+font-family:Verdana; 
+font-size:9pt; 
+
+text-align:center; 
+width:180px; 
+height:158px; 
+padding:10px; 
+line-height:1.5em; 
+} 
+.Calendar a{ 
+color:#ffffff;
+padding-left:4px;
+padding-right:4px;
+padding-top:2px;
+padding-bottom:2px;
+background-color: #B85A18;
+text-decoration: none;
+font-weight: bold;
+} 
+.Calendar table{ 
+width:100%; 
+border:0; 
+} 
+.Calendar table thead{color:#acacac;} 
+.Calendar table td { 
+font-size: 11px; 
+padding:1px; 
+} 
+#idCalendarPre{ 
+cursor:pointer; 
+float:left; 
+padding-right:5px; 
+} 
+#idCalendarNext{ 
+cursor:pointer; 
+float:right; 
+padding-right:5px; 
+} 
+#idCalendar td.onToday { 
+font-weight:bold; 
+color:#C60; 
+} 
+#idCalendar td.onSelect { 
+font-weight:bold; 
+}
+.right-font08 {
+color: #000000;
+font-size: 14px;
+font-family: 黑体;
+text-decoration: none;
+}
+#sddm
+{	
+	z-index: 30;
+}
+
+#sddm li a
+{	
+display: block;
+}
+
+#sddm .showhid
+{	position: absolute;
+	visibility: hidden;
+	margin-top: 3px;
+	padding: 0;
+	width:150px;
+}
+#sddm .showhid a
+{	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 15px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+	font-family: 黑体;
+}
+#sddm .showhid .tmbj{
+	width:150px;
+	background: #6d482e;
+    filter:alpha(opacity=30);
+	-moz-opacity:0.30; /*支持火狐等浏览器*/
+	opacity:0.30;
+}
+#sddm .showhid .tmbj2{
+	width:150px;
+	background: #B85A18;
+}
+#sddm .showhid a:hover
+{	
+	background: #B85A18;
+}

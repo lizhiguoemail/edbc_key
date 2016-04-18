@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>文件上传</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script language="javascript" src="./mupload-1.2-source.js"></script>
+</head>
+<body>
+<center>
+<br/>
+<script>
+	// 获取传递过来的参数，上下文环境和布局信息
+	var tmp = window.location.search.substring(1).split("&");
+	var paraMap = {};
+	for (var i = 0; i < tmp.length; i ++) {
+		var str = tmp[i].split("=");
+		paraMap[str[0]] = str[1];
+	}
+	//alert(paraMap['context'] + '   ' + paraMap['layout']);
+	
+	// 建立MUpload对象
+	var upload = new MUpload();
+	
+	// 运行控件，设置参数
+	upload.run({
+		limitTypes : {"视频文件(*.rm,*.rmvb,*.avi,*.mpg,*.mp4,*.wmv,*.co,*.wrl,*.flv)" : "rm,rmvb,avi,mpg,mp4,wmv,co,wrl,flv"}, // 
+		onComplete : "uploadComplete",
+		onFailed : "uploadFailed",
+		httpURL : "/" + paraMap["context"] + "/mupload.do?userid="+paraMap["userid"],
+		layout : paraMap["layout"] // 获取布局信息
+	});
+	
+	// 文件上传成功后的回调方法
+	function uploadComplete(localFile, fileSize, serverFilePath)
+	{
+		/*
+		alert('[文件上传成功]本地上传的文件路径为：' + localFile + '\n'
+			+ '上传的文件大小为：' + fileSize + '\n'
+			+ '服务器上文件的路径为：' + serverFilePath);
+	    */
+	  alert("恭喜您：上传成功！");
+		window.returnValue = {
+			'localFile' : localFile, 
+			'fileSize' : fileSize,
+			'serverFilePath' : serverFilePath,
+			'success' : true
+		};
+		window.close();
+	}
+	
+	// 文件上传失败的回调方法
+	function uploadFailed(localFile, fileSize, msg)
+	{
+		 alert("上传失败,失败原因"+msg);
+		window.returnValue = {
+			'localFile' : localFile, 
+			'fileSize' : fileSize,
+			'success' : false,
+			'message' : msg
+		};
+		window.close();
+	}
+	
+	// 获取当前的文件上传状态
+	function getUploadStatus()
+	{
+		var status = upload.status();
+		alert('状态代码为：' + status.status + '\n状态信息：' + status.message);
+	}
+</script>
+</center>
+<br/>
+</body>
+</html>

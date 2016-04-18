@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	     xmlns:aop="http://www.springframework.org/schema/aop"
+	     xmlns:tx="http://www.springframework.org/schema/tx"
+	     xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd" default-lazy-init="true">
+	
+	<bean id="dateSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		 <!-- oracle版本 
+		<property name="driverClassName"
+			value="oracle.jdbc.driver.OracleDriver">
+		</property>
+		<property name="url"
+			value="jdbc:oracle:thin:@localhost:1521:ORCL">
+		</property>
+		<property name="username" value="dbc"></property>
+		<property name="password" value="oracl"></property>
+		-->
+		<!-- mysql版本 --> 
+		<property name="driverClassName"
+			value="com.mysql.jdbc.Driver">
+		</property>
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/edbc_key?characterEncoding=UTF-8">
+		</property>
+		<property name="username" value="edbc"></property>
+		<property name="password" value="111111"></property>
+		
+	</bean>
+	<bean id="sessionFactory" name="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dateSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+			  <prop key="hibernate.autoReconnect">
+			  true
+			  </prop>
+			  <!-- oracle版本 
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.OracleDialect
+				</prop>
+				-->
+				<!-- mysql版本  --> 
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				
+				<!--org.hibernate.dialect.Oracle9Dialect--> 
+					<!--设置二级缓冲-->
+				<prop key="hibernate.cache.provider_class">
+					org.hibernate.cache.EhCacheProvider
+				</prop>
+				<!--设置二级缓冲，打开查询缓冲-->
+				<prop key="hibernate.cache.use_query_cache">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">
+					update
+				</prop>
+				<prop key="hibernate.show_sql">
+					false
+				</prop>
+				<!--<prop key="hibernate.jdbc.batch_size">
+					0
+				</prop>--> 
+				<!-- 读：大大节省了无谓的内存消耗。当然Fetch Size设的越大，读数据库的次数越少，MySQL就不支持 -->
+				<prop key="hibernate.jdbc.fetch_size">50</prop>
+				<!-- 取 ：批量删除，批量更新和批量插入的时候的批次大小-->
+				<prop key="hibernate.jdbc.batch_size">30</prop>
+				<!-- 解决weblogic抛出的ClassNotFoundException: org.hibernate.hql.ast.HqlToken异常
+				2.x :hibernate.query.factory_class=org.hibernate.hql.classic.ClassicQueryTranslatorFactory    
+                3.x:hibernate.query.factory_class=org.hibernate.hql.ast.ASTQueryTranslatorFactory  
+				--> 
+                <prop key="hibernate.query.factory_class">
+                     org.hibernate.hql.ast.ASTQueryTranslatorFactory  
+               </prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+			    <value>org/dbc/pojo/Album.hbm.xml</value>
+				<value>org/dbc/pojo/Art_Goods.hbm.xml</value>
+			    <value>org/dbc/pojo/Article_column.hbm.xml</value>
+				<value>org/dbc/pojo/Article.hbm.xml</value>
+				<value>org/dbc/pojo/Assets_out.hbm.xml</value>
+				<value>org/dbc/pojo/Assets_use.hbm.xml</value>
+				<value>org/dbc/pojo/Assets.hbm.xml</value>
+				<value>org/dbc/pojo/Base_type.hbm.xml</value>
+				<value>org/dbc/pojo/Bbs_Category.hbm.xml</value>
+				<value>org/dbc/pojo/Bbs_Forum.hbm.xml</value>
+				<value>org/dbc/pojo/Bbs_Params.hbm.xml</value>
+				<value>org/dbc/pojo/Bbs_Post.hbm.xml</value>
+				<value>org/dbc/pojo/Bbs_Rank.hbm.xml</value>
+				<value>org/dbc/pojo/Bbs_Vote.hbm.xml</value>
+				<value>org/dbc/pojo/Bbs_Weapon.hbm.xml</value>
+				<value>org/dbc/pojo/Company.hbm.xml</value>
+				<value>org/dbc/pojo/Department.hbm.xml</value>
+				<value>org/dbc/pojo/Exhibition.hbm.xml</value>
+				<value>org/dbc/pojo/Experts.hbm.xml</value>
+				<value>org/dbc/pojo/Friendlink.hbm.xml</value>
+				<value>org/dbc/pojo/Friends.hbm.xml</value>
+				<value>org/dbc/pojo/Front_module.hbm.xml</value>
+				<value>org/dbc/pojo/In_product.hbm.xml</value>
+				<value>org/dbc/pojo/Interactive.hbm.xml</value>
+				<value>org/dbc/pojo/Jgw_collection.hbm.xml</value>
+				<value>org/dbc/pojo/Jgw_words.hbm.xml</value>
+				<value>org/dbc/pojo/Jingtai.hbm.xml</value>
+				<value>org/dbc/pojo/Log.hbm.xml</value>
+				<value>org/dbc/pojo/Out_product.hbm.xml</value>
+				<value>org/dbc/pojo/Param.hbm.xml</value>
+				<value>org/dbc/pojo/Pic_rel.hbm.xml</value>
+				<value>org/dbc/pojo/Picture_group.hbm.xml</value>
+				<value>org/dbc/pojo/Pictures.hbm.xml</value>
+				<value>org/dbc/pojo/Pinglun.hbm.xml</value>
+				<value>org/dbc/pojo/Position.hbm.xml</value>
+				<value>org/dbc/pojo/Product.hbm.xml</value>
+				<value>org/dbc/pojo/Progress.hbm.xml</value>
+				<value>org/dbc/pojo/Publications.hbm.xml</value>
+				<value>org/dbc/pojo/RolesBean.hbm.xml</value>
+				<value>org/dbc/pojo/Subscribe_email.hbm.xml</value>
+				<value>org/dbc/pojo/TreeByCai.hbm.xml</value>
+				<value>org/dbc/pojo/UserBean.hbm.xml</value>
+				<value>org/dbc/pojo/Video_group.hbm.xml</value>
+				<value>org/dbc/pojo/Video_rel.hbm.xml</value>
+				<value>org/dbc/pojo/Videos.hbm.xml</value>
+				<value>org/dbc/pojo/Worktask.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="basedao" class="org.dbc.dao.BaseDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="baseservice" class="org.dbc.service.BaseService">
+		<property name="basedao">
+			<ref bean="basedao" />
+		</property>
+	</bean>
+	<bean id="userdao" class="org.dbc.dao.UserDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="rolesdao" class="org.dbc.dao.RolesDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="logdao" class="org.dbc.dao.LogDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="interactivedao" class="org.dbc.dao.InteractiveDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="treebycaidao" class="org.dbc.dao.TreeByCaiDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="companydao" class="org.dbc.dao.CompanyDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="departmentdao" class="org.dbc.dao.DepartmentDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="positiondao" class="org.dbc.dao.PositionDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="paramdao" class="org.dbc.dao.ParamDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="bbs_categorydao" class="org.dbc.dao.Bbs_CategoryDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+    <bean id="bbs_forumdao" class="org.dbc.dao.Bbs_ForumDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	 <bean id="bbs_postdao" class="org.dbc.dao.Bbs_PostDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	 <bean id="bbs_votedao" class="org.dbc.dao.Bbs_VoteDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	 <bean id="bbs_paramsdao" class="org.dbc.dao.Bbs_ParamsDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	 <bean id="bbs_rankdao" class="org.dbc.dao.Bbs_RankDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	 <bean id="bbs_weapondao" class="org.dbc.dao.Bbs_WeaponDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	 <bean id="friendsdao" class="org.dbc.dao.FriendsDao">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="articledao" class="org.dbc.dao.ArticleDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+    <bean id="base_typedao" class="org.dbc.dao.Base_typeDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="front_moduledao" class="org.dbc.dao.Front_moduleDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="article_columndao" class="org.dbc.dao.Article_columnDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="friendlinkdao" class="org.dbc.dao.FriendlinkDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="productdao" class="org.dbc.dao.ProductDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="in_productdao" class="org.dbc.dao.In_productDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+    <bean id="out_productdao" class="org.dbc.dao.Out_productDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="assetsdao" class="org.dbc.dao.AssetsDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+    <bean id="assets_usedao" class="org.dbc.dao.Assets_useDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="assets_outdao" class="org.dbc.dao.Assets_outDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="subscribe_emaildao" class="org.dbc.dao.Subscribe_emailDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean> 
+    
+     <bean id="expertsdao" class="org.dbc.dao.ExpertsDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="publicationsdao" class="org.dbc.dao.PublicationsDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="exhibitiondao" class="org.dbc.dao.ExhibitionDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+    <bean id="art_goodsdao" class="org.dbc.dao.Art_GoodsDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+     <bean id="jgw_wordsdao" class="org.dbc.dao.Jgw_wordsDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+    <bean id="jgw_collectiondao" class="org.dbc.dao.Jgw_collectionDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+    	<!-- 图片管理 -->
+	 <bean id="picturesdao" class="org.dbc.dao.PicturesDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    <bean id="picturesservice" class="org.dbc.service.PicturesService">
+        <property name="picturesdao">
+            <ref bean="picturesdao" />
+        </property>
+        <property name="basedao">
+            <ref bean="basedao" />
+        </property>
+    </bean>
+	<!-- 图片管理 -->
+	<!-- 图册管理 -->
+	<bean id="picture_groupdao" class="org.dbc.dao.Picture_groupDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    <bean id="picture_groupservice" class="org.dbc.service.Picture_groupService">
+        <property name="picture_groupdao">
+            <ref bean="picture_groupdao" />
+        </property>
+        <property name="basedao">
+            <ref bean="basedao" />
+        </property>
+    </bean>
+    <!-- 图册管理 -->
+    <!-- 视频管理 -->
+     <bean id="videosdao" class="org.dbc.dao.VideosDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    <bean id="videosservice" class="org.dbc.service.VideosService">
+        <property name="videosdao">
+            <ref bean="videosdao" />
+        </property>
+        <property name="basedao">
+            <ref bean="basedao" />
+        </property>
+    </bean>
+     <bean id="video_groupdao" class="org.dbc.dao.Video_groupDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    <bean id="video_groupservice" class="org.dbc.service.Video_groupService">
+        <property name="video_groupdao">
+            <ref bean="video_groupdao" />
+        </property>
+        <property name="basedao">
+            <ref bean="basedao" />
+        </property>
+    </bean>
+    <!-- 视频管理 -->
+    
+    <bean id="pic_reldao" class="org.dbc.dao.Pic_relDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    <bean id="pic_relservice" class="org.dbc.service.Pic_relService">
+        <property name="pic_reldao">
+            <ref bean="pic_reldao" />
+        </property>
+        <property name="basedao">
+            <ref bean="basedao" />
+        </property>
+    </bean>
+    
+     <bean id="video_reldao" class="org.dbc.dao.Video_relDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    <bean id="video_relservice" class="org.dbc.service.Video_relService">
+        <property name="video_reldao">
+            <ref bean="video_reldao" />
+        </property>
+        <property name="basedao">
+            <ref bean="basedao" />
+        </property>
+    </bean>
+    
+    <bean id="progressdao" class="org.dbc.dao.ProgressDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    <bean id="progressservice" class="org.dbc.service.ProgressService">
+        <property name="progressdao">
+            <ref bean="progressdao" />
+        </property>
+        <property name="basedao">
+            <ref bean="basedao" />
+        </property>
+    </bean>
+    
+    <bean id="worktaskdao" class="org.dbc.dao.WorktaskDao">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    <bean id="worktaskservice" class="org.dbc.service.WorktaskService">
+        <property name="worktaskdao">
+            <ref bean="worktaskdao" />
+        </property>
+        <property name="basedao">
+            <ref bean="basedao" />
+        </property>
+    </bean>
+    
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory"/>
+		</property>
+	</bean>
+	
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="save*" propagation="REQUIRED"/>
+			<tx:method name="insert*" propagation="REQUIRED"/> 
+			<tx:method name="delete*" propagation="REQUIRED"/>
+			<tx:method name="update*" propagation="REQUIRED"/>
+			<tx:method name="set*" propagation="REQUIRED"/>
+			<!--<tx:method name="allObject" read-only="true"/>-->  
+			<!--<tx:method name="sel*" read-only="true"/>-->  
+			<!-- 
+				PROPAGATION_REQUIRED 支持当前事务，如果当前没有事务，就新建一个事务。这是最常见的选择。
+
+				PROPAGATION_SUPPORTS 支持当前事务，如果当前没有事务，就以非事务方式执行。
+				
+				PROPAGATION_MANDATORY 支持当前事务，如果当前没有事务，就抛出异常。
+				
+				PROPAGATION_REQUIRES_NEW 新建事务，如果当前存在事务，把当前事务挂起。
+				
+				PROPAGATION_NOT_SUPPORTED 以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
+				
+				PROPAGATION_NEVER 以非事务方式执行，如果当前存在事务，则抛出异常。
+				
+				PROPAGATION_NESTED 如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则进行与PROPAGATION_REQUIRED类似的操作。
+			 -->
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:pointcut id="allManagerMethod" expression="(execution(* org.dbc.service.*.*(..)))"/>
+		<aop:advisor pointcut-ref="allManagerMethod" advice-ref="txAdvice"/>
+	</aop:config>
+
+
+</beans>
+
+
